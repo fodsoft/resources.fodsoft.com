@@ -78,13 +78,14 @@ document.addEventListener('DOMContentLoaded', () => {
         const idiomaSeleccionado = evento.target.value;
         cambiarIdioma(idiomaSeleccionado);
     });
-	window.onbeforeunload = function () {window.scrollTo(0, 0);};
 	const imgs = [
 			"https://resources.fodsoft.com/foto_nf.webp",
 			"https://resources.fodsoft.com/foto_neo_fodere.webp"
 		];
 		const imgAleatoria = imgs[Math.floor(Math.random() * imgs.length)];
-		const img = document.getElementById("fotoNF");
+		const img = document.getElementById("imgRandom");
 		if (img) { img.src = imgAleatoria; }
+	window.onbeforeunload = function () {window.scrollTo(0, 0);};
 });
 // FODSOFT(TM), NSTUDIOS GAMES(TM). Neo Fodere de Frutos. All rights reserved
+
