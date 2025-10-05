@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /
 Allow: /*.ico$
-Allow: /*.pdf$
+Allow: /neo_fodere_cv.pdf
