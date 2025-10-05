@@ -85,8 +85,9 @@ document.addEventListener("DOMContentLoaded", function () {
 	];
 	const imgAleatoria = imgs[Math.floor(Math.random() * imgs.length)];
 	const img = document.getElementById("fotoNF");
-	if (imagenElemento) { img.src = imgAleatoria; }
+	if (img) { img.src = imgAleatoria; }
 });
 window.onbeforeunload = function () {window.scrollTo(0, 0);};
 });
 // FODSOFT(TM), NSTUDIOS GAMES(TM). Neo Fodere de Frutos. All rights reserved
+
