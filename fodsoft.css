@@ -112,7 +112,7 @@ body.light-theme footer { background-color: #dcdcdc; color: #000000;}
     position: relative;
 	pointer-events: none;
 }
-header-fodru {
+.header-fodru {
 	background-image: url('https://resources.fodsoft.com/gelatina_fodfru.webp');
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -120,7 +120,7 @@ header-fodru {
 	height: 200px;
 }
 
-footer-fodfru {
+.footer-fodfru {
 	background-image: url('https://resources.fodsoft.com/gelatina_fodfru.webp');
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -337,5 +337,6 @@ footer {
   100% {transform: translateY(0);}
 }
 /* FODSOFT(TM), NSTUDIOS GAMES(TM). Neo Fodere de Frutos. All rights reserved */
+
 
 
