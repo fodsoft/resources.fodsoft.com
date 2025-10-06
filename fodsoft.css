@@ -101,7 +101,7 @@ body.light-theme footer { background-color: #dcdcdc; color: #000000;}
 	pointer-events: none;
 }
 .logo-principal-mini {
-	width: 100px;
+	width: 80px;
 	height: auto;
     cursor: pointer;
     position: relative;
@@ -327,3 +327,4 @@ footer {
   100% {transform: translateY(0);}
 }
 /* FODSOFT(TM), NSTUDIOS GAMES(TM). Neo Fodere de Frutos. All rights reserved */
+
