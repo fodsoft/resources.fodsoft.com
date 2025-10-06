@@ -1,10 +1,5 @@
-@font-face {font-family: 'montserrat'; src: url('montserrat.ttf') format('truetype');}
-@font-face {
-  font-family: 'Acme';
-  src: url('fonts/Acme.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
+@font-face { font-family: 'montserrat'; src: url('montserrat.ttf') format('truetype'); }
+@font-face { font-family: 'Acme'; src: url('fonts/Acme.ttf') format('truetype'); }
 body {
     font-family: 'montserrat', sans-serif;
     margin: 0;
@@ -332,3 +327,4 @@ footer {
   100% {transform: translateY(0);}
 }
 /* FODSOFT(TM), NSTUDIOS GAMES(TM). Neo Fodere de Frutos. All rights reserved */
+
