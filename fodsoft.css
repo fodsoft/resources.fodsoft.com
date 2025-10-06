@@ -117,12 +117,12 @@ body.light-theme footer { background-color: #dcdcdc; color: #000000;}
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	height: 200px;
+	height: auto;
 }
 
 .footer-fodfru {
   position: relative;
-  height: 150px;
+  height: auto;
   overflow: hidden;
   z-index: 0;
 }
@@ -347,6 +347,7 @@ footer {
   100% {transform: translateY(0);}
 }
 /* FODSOFT(TM), NSTUDIOS GAMES(TM). Neo Fodere de Frutos. All rights reserved */
+
 
 
 
