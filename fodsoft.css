@@ -79,7 +79,7 @@ display: flex;
   align-items: center;
 }
 .body-fodfru {
-    background-image: url('https://resources.fodsoft.com/fondo_fodfru.webp/');
+    background-image: url('https://resources.fodsoft.com/fondo_fodfru.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -112,7 +112,7 @@ body.light-theme footer { background-color: #dcdcdc; color: #000000;}
     position: relative;
 	pointer-events: none;
 }
-.header-fodru {
+.header-fodfru {
 	background-image: url('https://resources.fodsoft.com/gelatina_fodfru.webp');
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -121,12 +121,22 @@ body.light-theme footer { background-color: #dcdcdc; color: #000000;}
 }
 
 .footer-fodfru {
-	background-image: url('https://resources.fodsoft.com/gelatina_fodfru.webp');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	height: 150px;
-	transform: scaleY(-1);
+  position: relative;
+  height: 150px;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.footer-fodfru::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-image: url('https://resources.fodsoft.com/gelatina_fodfru.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: scaleY(-1);
+  z-index: -1;
 }
 
 nav {
@@ -337,6 +347,7 @@ footer {
   100% {transform: translateY(0);}
 }
 /* FODSOFT(TM), NSTUDIOS GAMES(TM). Neo Fodere de Frutos. All rights reserved */
+
 
 
 
