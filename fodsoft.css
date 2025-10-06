@@ -136,8 +136,8 @@ body.light-theme footer { background-color: #dcdcdc; color: #000000;}
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
-  transform: scaleY(-1);
 }
+.gelatina-footer {transform: scaleY(-1);}
 
 nav {
     display: flex;
@@ -347,6 +347,7 @@ footer {
   100% {transform: translateY(0);}
 }
 /* FODSOFT(TM), NSTUDIOS GAMES(TM). Neo Fodere de Frutos. All rights reserved */
+
 
 
 
