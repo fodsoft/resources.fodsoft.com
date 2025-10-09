@@ -46,3 +46,4 @@ document.addEventListener('DOMContentLoaded', () => {
 	if (img) { img.src = imgAleatoria; }
 	window.onbeforeunload = function () {window.scrollTo(0, 0);};
 });
+// FODSOFT(TM), NSTUDIOS GAMES(TM). Neo Fodere de Frutos. All rights reserved
