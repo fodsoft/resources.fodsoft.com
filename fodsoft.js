@@ -1,47 +1,4 @@
-const traducciones = {
-    "en": {
-        "inicio": "Home",
-        "proyectos": "Software",
-        "juegos": "Games",
-        "info": "About",
-        "info_destacado": "More info",
-        "descargar": "Download",
-        "enlaces_footer": "Visit me",
-		"buscar_juegos": "Looking for video games?",
-		"buscar_soft": "Looking for software tools?",
-		"soft": "ALL SOFTWARE",
-		"tech": "ALL TECHNOLOGIES",
-		"game": "ALL GAMES"
-    },
-    "es": {
-        "inicio": "Inicio",
-        "proyectos": "Software",
-        "juegos": "Juegos",
-        "info": "Acerca de",
-        "info_destacado": "Más info",
-        "descargar": "Descargar",
-        "enlaces_footer": "Visítame",
-		"buscar_juegos": "¿Buscas videojuegos?",
-		"buscar_soft": "¿Buscas herramientas de software?",
-		"soft": "TODO EL SOFTWARE",
-		"tech": "TODAS LAS TECNOLOGÍAS",
-		"game": "TODOS LOS JUEGOS"
-    },
-    "fr": {
-        "inicio": "Accueil",
-        "proyectos": "Software",
-        "juegos": "Jeux",
-        "info": "À propos",
-        "info_destacado": "Plus d'infos",
-        "descargar": "Télécharger",
-        "enlaces_footer": "Visitez-moi",
-		"buscar_juegos": "Vous cherchez des jeux vidéo ?",
-		"buscar_soft": "Vous cherchez des logiciels ?",
-		"soft": "TOUS LES LOGICIELS",
-		"tech": "TOUTES LES TECHNOLOGIES",
-		"game": "TOUS LES JEUX"
-    },
-};
+const traducciones;
 const idiomasDisponibles = {"en": "en-US","es": "es-ES","fr": "fr-FR",};
 function detectarIdiomaNavegador() {
     const idiomaUsuario = navigator.language || navigator.userLanguage;
@@ -89,3 +46,4 @@ const imgs = [
 	window.onbeforeunload = function () {window.scrollTo(0, 0);};
 });
 // FODSOFT(TM), NSTUDIOS GAMES(TM). Neo Fodere de Frutos. All rights reserved
+
