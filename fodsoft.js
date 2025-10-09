@@ -1,5 +1,5 @@
 const idiomasDisponibles = {"en": "en-US", "es": "es-ES", "fr": "fr-FR"};
-function detectarIdiomaNavegador()
+function detectarIdioma()
 {
 	const idiomaUsuario = navigator.language || navigator.userLanguage;
 	const codigoIdioma = idiomaUsuario.split('-')[0];
@@ -8,7 +8,7 @@ function detectarIdiomaNavegador()
 function obtenerIdioma()
 {
 	const idiomaGuardado = localStorage.getItem('idioma');
-	return idiomasDisponibles[idiomaGuardado] ? idiomaGuardado : detectarIdiomaNavegador();
+	return idiomasDisponibles[idiomaGuardado] ? idiomaGuardado : detectarIdioma();
 }
 function traducirPagina(idioma, traducciones)
 {
