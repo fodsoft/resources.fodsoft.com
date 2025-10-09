@@ -42,11 +42,7 @@ const traducciones = {
 		"game": "TOUS LES JEUX"
     },
 };
-const idiomasDisponibles = {
-    "en": "en-US",
-    "es": "es-ES",
-    "fr": "fr-FR",
-};
+const idiomasDisponibles = {"en": "en-US","es": "es-ES","fr": "fr-FR",};
 function detectarIdiomaNavegador() {
     const idiomaUsuario = navigator.language || navigator.userLanguage;
     const codigoIdioma = idiomaUsuario.split('-')[0];
@@ -69,16 +65,21 @@ function traducirPagina(idioma) {
     });
 }
 document.addEventListener('DOMContentLoaded', () => {
-    const idioma = obtenerIdioma();
-    traducirPagina(idioma);
-
+  const idioma = obtenerIdioma();
+  traducirPagina(idioma);
+  const espera = setInterval(() => {
     const selectorIdioma = document.querySelector('#selector-idioma');
-    selectorIdioma.value = idioma;
-    selectorIdioma.addEventListener('change', (evento) => {
+    if (selectorIdioma) {
+      selectorIdioma.value = idioma;
+      selectorIdioma.addEventListener('change', (evento) => {
         const idiomaSeleccionado = evento.target.value;
         cambiarIdioma(idiomaSeleccionado);
-    });
-	const imgs = [
+      });
+      clearInterval(esperar);
+    }
+  }, 50);
+});
+const imgs = [
 			"https://resources.fodsoft.com/foto_nf.webp",
 			"https://resources.fodsoft.com/foto_neo_fodere.webp"
 		];
@@ -88,4 +89,3 @@ document.addEventListener('DOMContentLoaded', () => {
 	window.onbeforeunload = function () {window.scrollTo(0, 0);};
 });
 // FODSOFT(TM), NSTUDIOS GAMES(TM). Neo Fodere de Frutos. All rights reserved
-
