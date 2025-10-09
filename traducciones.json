@@ -12,6 +12,7 @@
     "buscar_soft": "Looking for software tools?",
     "soft": "ALL SOFTWARE",
     "tech": "ALL TECHNOLOGIES",
+    "404": "Page not found",
     "game": "ALL GAMES"
   },
   "es":
@@ -27,6 +28,7 @@
     "buscar_soft": "¿Buscas herramientas de software?",
     "soft": "TODO EL SOFTWARE",
     "tech": "TODAS LAS TECNOLOGÍAS",
+    "404": "Página no encontrada",
     "game": "TODOS LOS JUEGOS"
   },
   "fr":
@@ -41,6 +43,7 @@
     "buscar_juegos": "Vous cherchez des jeux vidéo ?",
     "buscar_soft": "Vous cherchez des logiciels ?",
     "soft": "TOUS LES LOGICIELS",
+    "404": "Page non trouvée",
     "tech": "TOUTES LES TECHNOLOGIES",
     "game": "TOUS LES JEUX"
   }
