@@ -269,6 +269,37 @@ nav a {
   margin-top: 10px;
   font-weight: bold;
 }
+.caratula-contenedor-juegos {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+.caratula-juego
+{
+	width: 100%;
+	display: block;
+	transition: transform 0.4s ease;
+}
+.imagenes-superiores
+{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	display: flex;
+	gap: 10px;
+	transition: transform 0.4s ease;
+	z-index: 2;
+}
+.imagen-superior
+{
+	width: 60px;
+	height: 60px;
+	border-radius: 8px;
+	box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+.caratula-contenedor-juegos:hover .caratula {transform: scale(1.1);}
+.caratula-contenedor-juegos:hover .imagenes-superiores {transform: translateY(-10px);}
 body.light-theme .caratula-texto {color: #3a3a3a;}
 body.dark-theme .caratula-texto {color: #ffffff;}
 footer {
@@ -327,4 +358,5 @@ footer {
   100% {transform: translateY(0);}
 }
 /* FODSOFT(TM), NSTUDIOS GAMES(TM). Neo Fodere de Frutos. All rights reserved */
+
 
