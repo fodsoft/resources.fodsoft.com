@@ -234,69 +234,38 @@ nav a {
 	z-index: 2;
 	pointer-events: none;
 }
-.software-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  align-items: flex-start;
-  margin-left: 40px;
-  margin-right: 20px;
-}
-.software-grid-app {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  align-items: flex-start;
-  justify-content: flex-end;
-  margin-left: 40px;
-  margin-right: 20px;
-  animation: animacion-imagen 1.5s ease-out;
-}
-.caratula-contenedor {
-  text-align: center;
-  width: 275px;
-}
-.caratula {
-  width: 100%;
-  height: auto;
-  border-radius: 30px;
-  border: 2px solid #ccc;
-  transition: transform 0.3s ease;
-}
-.caratula:hover {transform: scale(1.05);}
-.caratula-enlace { text-decoration: none;}
-.caratula-texto {
-  margin-top: 10px;
-  font-weight: bold;
-}
-.caratula-contenedor-juegos {
-  position: relative;
-  overflow: hidden;
-  border-radius: 8px;
-}
-.caratula-juego
+.software-grid
 {
-	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+	align-items: flex-start;
+	margin-left: 40px;
+	margin-right: 20px;
+}
+.software-grid-app
+{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+	align-items: flex-start;
+	justify-content: flex-end;
+	margin-left: 40px;
+	margin-right: 20px;
+	animation: animacion-imagen 1.5s ease-out;
+}
+.caratula-contenedor {text-align: center; width: 275px;}
+.caratula
+{
+	width: 100%;
 	height: auto;
 	border-radius: 30px;
 	border: 2px solid #ccc;
-  display: block;
-  transition: transform 0.4s ease;
-  z-index: 1;
+	transition: transform 0.3s ease;
 }
-}
-.elemento-superior
-{
-	position: absolute;
-	width: 60px;
-	height: 60px;
-	transition: transform 0.4s ease;
-	z-index: 2;
-}
-.personaje {top: 10px; left: 10px;}
-.logo {top: 10px; right: 10px;}
-.caratula-contenedor-juegos:hover .caratula-juego {transform: scale(1.1);}
-.caratula-contenedor-juegos:hover .elemento-superior {transform: translateY(-30px);}
+.caratula:hover {transform: scale(1.05);}
+.caratula-enlace { text-decoration: none;}
+.caratula-texto{ margin-top: 10px; font-weight: bold;}
 body.light-theme .caratula-texto {color: #3a3a3a;}
 body.dark-theme .caratula-texto {color: #ffffff;}
 footer {
@@ -355,6 +324,7 @@ footer {
   100% {transform: translateY(0);}
 }
 /* FODSOFT(TM), NSTUDIOS GAMES(TM). Neo Fodere de Frutos. All rights reserved */
+
 
 
 
