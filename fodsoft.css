@@ -276,7 +276,7 @@ nav a {
 }
 .caratula-juego
 {
-	width: 100%;
+	width: 50%;
 	height: auto;
 	border-radius: 30px;
 	border: 2px solid #ccc;
@@ -355,6 +355,7 @@ footer {
   100% {transform: translateY(0);}
 }
 /* FODSOFT(TM), NSTUDIOS GAMES(TM). Neo Fodere de Frutos. All rights reserved */
+
 
 
 
