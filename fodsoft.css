@@ -1,6 +1,17 @@
-@font-face { font-family: 'montserrat'; src: url('montserrat.ttf') format('truetype'); }
-@font-face { font-family: 'Acme'; src: url('fonts/Acme.ttf') format('truetype'); }
-body {
+@font-face
+{
+	font-family: 'montserrat';
+	src: url('montserrat.ttf')
+	format('truetype');
+}
+@font-face
+{
+	font-family: 'Acme'; 
+	src: url('fonts/Acme.ttf') 
+	format('truetype');
+}
+body
+{
     font-family: 'montserrat', sans-serif;
     margin: 0;
     padding: 0;
@@ -8,25 +19,45 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
-main {flex: 1;}
-.titulo{margin-left: 40px;}.titulo-soft{margin-left: 40px; margin-top: 80px;}
-.invertir-color {filter: invert(100%);}
-.bordes {border-radius: 10px;}
+main
+{
+	flex: 1;
+}
+.titulo
+{
+	margin-left: 40px;
+}
+.titulo-soft
+{
+	margin-left: 40px; 
+	margin-top: 80px;
+}
+.invertir-color 
+{
+	filter: invert(100%);
+}
+.bordes 
+{
+	border-radius: 10px;
+}
 header
 {
-	background: #3498db;
-	height: 120px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 10px 40px;
-	position: fixed;
-	top: 0;
-	width: 100%;
-	z-index: 1000;
-	clip-path: ellipse(80% 100% at 50% 100%);
+	border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    white-space: nowrap;
+    box-sizing: border-box;
+    overflow: hidden;
 }
-.foto-nf {
+.foto-nf 
+{
   width: 17%;
   border-radius: 170px;
   float: right;
@@ -34,79 +65,114 @@ header
   margin-top: 80px;
   animation: subir-bajar 3s ease-in-out infinite;
 }
-.icono-principal {
+.icono-principal 
+{
   width: 35%;
   margin-top: 90px;
   margin-left: 30px;
   animation: subir-bajar 3s ease-in-out infinite;
 }
-.icono-app {
+.icono-app 
+{
   width: 17%;
   float: right;
   margin-right: 30px;
   margin-top: 80px;
   animation: subir-bajar 3s ease-in-out infinite;
 }
-.logo-app {
+.logo-app 
+{
   width: 25%;
   float: left;
   margin-left: 30px;
   margin-top: 80px;
   animation: subir-bajar 3s ease-in-out infinite;
 }
-.icono-nsg {
+.icono-nsg 
+{
   width: 18.5%;
   float: right;
   margin-right: 30px;
   margin-top: 30px;
   animation: subir-bajar 3s ease-in-out infinite;
 }
-.imagen-completa {
+.imagen-completa 
+{
   width: 100%;
   height: auto;
   display: block;
 }
-.main-fodsoft{
-display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.main-fodsoft
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
-.body-fodfru {
+.body-fodfru
+{
     background-image: url('https://resources.fodsoft.com/fondo_fodfru.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-  }
-.error-404{
-display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  text-align: center;
 }
-body.dark-theme {background-color: #282828; color: #ffffff;}
-body.dark-theme header {background-color: #3a3a3a; color: #ffffff;}
-body.dark-theme footer { background-color: #3a3a3a; color: #ffffff;}
-body.light-theme {background-color: #ebebeb; color: #000000;}
-body.light-theme header {background-color: #dcdcdc; color: #000000;}
-body.light-theme footer { background-color: #dcdcdc; color: #000000;}
-.logo-principal {
+.error-404
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	text-align: center;
+}
+body.dark-theme
+{
+	background-color: #282828; 
+	color: #ffffff;
+}
+body.dark-theme header 
+{
+	background-color: #3a3a3a; 
+	color: #ffffff;
+}
+body.dark-theme footer 
+{
+	background-color: #3a3a3a; 
+	color: #ffffff;
+}
+body.light-theme
+{
+	background-color: #ebebeb;
+	color: #000000;
+}
+body.light-theme header
+{
+	background-color: #dcdcdc;
+	color: #000000
+}
+body.light-theme footer 
+{ 
+	background-color: #dcdcdc; 
+	color: #000000;
+}
+.logo-principal 
+{
 	width: 170px;
 	height: auto;
     cursor: pointer;
     position: relative;
 	pointer-events: none;
 }
-.logo-principal-mini {
+.logo-principal-mini 
+{
 	width: 80px;
 	height: auto;
     cursor: pointer;
     position: relative;
 	pointer-events: none;
 }
-.header-fodfru {
+.header-fodfru 
+{
   background-image: url('https://resources.fodsoft.com/gelatina_fodfru.webp');
   background-repeat: no-repeat;
   background-position: center top;
@@ -118,18 +184,21 @@ body.light-theme footer { background-color: #dcdcdc; color: #000000;}
   justify-content: center;
   box-sizing: border-box;
 }
-nav {
+nav 
+{
     display: flex;
     align-items: center;
     justify-content: flex-end;
 	width: 100%;
 }
-nav a {
+nav a 
+{
     color: inherit;
     text-decoration: none;
     margin: 0 10px;
 }
-#selector-idioma {
+#selector-idioma 
+{
     font-size: 15px;
 	font-family: 'montserrat', sans-serif;
     padding: 5px;
@@ -139,15 +208,21 @@ nav a {
     cursor: pointer;
     transition: all 0.3s ease;
 }
-.juego-destacado {position: relative; overflow: hidden;}
-.contenedor-video {
+.juego-destacado 
+{
+	position: relative; 
+	overflow: hidden;
+}
+.contenedor-video 
+{
   position: relative;
   width: 100%;
   overflow: hidden;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
 }
-.botones {
+.botones 
+{
   position: absolute;
   top: 88%;
   left: 3%;
@@ -156,7 +231,8 @@ nav a {
   z-index: 2;
   animation: animacion-imagen 2s ease-out;
 }
-.btn-a {
+.btn-a 
+{
   padding: 7px 20px;
   font-size: 25px;
   font-family: montserrat, sans-serif;
@@ -168,7 +244,8 @@ nav a {
   cursor: pointer;
   transition: transform 0.3s ease;
 }
-.btn-b {
+.btn-b 
+{
   padding: 7px 20px;
   font-size: 25px;
   font-family: montserrat, sans-serif;
@@ -181,10 +258,12 @@ nav a {
   transition: transform 0.3s ease;
 }
 .btn-a:hover,
-.btn-b:hover {
+.btn-b:hover
+{
   transform: scale(1.2);
 }
-.desc-dest {
+.desc-dest
+{
   position: absolute;
   top: 55%;
   left: 2%;
@@ -197,14 +276,16 @@ nav a {
   text-align: left;
   animation: animacion-imagen 2s ease-out;
 }
-.juego-destacado video {
+.juego-destacado video
+{
   width: 100%;
   height: auto;
   display: block;
   filter: brightness(0.85);
   pointer-events: none;
 }
-.fondo-superpuesto {
+.fondo-superpuesto
+{
   position: absolute;
   top: 0;
   left: 0;
@@ -213,7 +294,8 @@ nav a {
   pointer-events: none;
   z-index: 1;
 }
-.juego-destacado .logo-fodfru {
+.juego-destacado .logo-fodfru
+{
     position: absolute;
     bottom: 45%;
     left: 3%;
@@ -223,7 +305,8 @@ nav a {
 	z-index: 2;
 	pointer-events: none;
 }
-.juego-destacado .logo-ng-titulo {
+.juego-destacado .logo-ng-titulo
+{
     position: absolute;
     bottom: 80%;
     left: 3%;
@@ -253,7 +336,11 @@ nav a {
 	margin-right: 20px;
 	animation: animacion-imagen 1.5s ease-out;
 }
-.caratula-contenedor {text-align: center; width: 275px;}
+.caratula-contenedor 
+{
+	text-align: center; 
+	width: 275px;
+}
 .caratula
 {
 	width: 100%;
@@ -262,12 +349,29 @@ nav a {
 	border: 2px solid #ccc;
 	transition: transform 0.3s ease;
 }
-.caratula:hover {transform: scale(1.05);}
-.caratula-enlace { text-decoration: none;}
-.caratula-texto{ margin-top: 10px; font-weight: bold;}
-body.light-theme .caratula-texto {color: #3a3a3a;}
-body.dark-theme .caratula-texto {color: #ffffff;}
-footer {
+.caratula:hover
+{
+	transform: scale(1.05);
+}
+.caratula-enlace 
+{ 
+	text-decoration: none;
+}
+.caratula-texto
+{ 
+	margin-top: 10px; 
+	font-weight: bold;
+}
+body.light-theme .caratula-texto 
+{
+	color: #3a3a3a;
+}
+body.dark-theme .caratula-texto 
+{
+	color: #ffffff;
+}
+footer 
+{
 	background-color: #3a3a3a;
 	color: #ffffff;
 	border-top-left-radius: 30px;
@@ -286,41 +390,71 @@ footer {
 	box-sizing: border-box;
     overflow: hidden;
 }
-.footer-centro {flex-grow: 1; text-align: center;}
-.footer-centro img {
+.footer-centro 
+{
+	flex-grow: 1; 
+	text-align: center;
+}
+.footer-centro img 
+{
     max-width: 100px;
     height: auto;
     margin-bottom: 2px;
 	pointer-events: none;
 }
-.footer-centro img.logo-footer {
+.footer-centro img.logo-footer 
+{
     max-width: 85px;
     height: auto;
     margin-bottom: -2px;
     pointer-events: none;
 }
-.footer-centro .p { margin: 0; font-size: 13px;}
-.footer-enlaces {text-align: right; padding-right: 0;}
-.footer-enlaces h2 {margin-bottom: 10px;}
-.footer-enlaces a { margin-left: 10px; display: inline-block;}
-.footer-enlaces img {
+.footer-centro .p 
+{ 
+	margin: 0; 
+	font-size: 13px;
+}
+.footer-enlaces 
+{
+	text-align: right; 
+	padding-right: 0;
+}
+.footer-enlaces h2 
+{
+	margin-bottom: 10px;
+}
+.footer-enlaces a 
+{ 
+	margin-left: 10px; 
+	display: inline-block;
+}
+.footer-enlaces img 
+{
     width: 40px;
     height: auto;
     transition: transform 0.3s ease;
     display: inline-block;
 }
-.footer-enlaces img .destacado-footer {width: 110px; height: auto; }
-.footer-enlaces img:hover {transform: scale(1.1);}
-@keyframes animacion-imagen {
+.footer-enlaces img .destacado-footer 
+{
+	width: 110px; 
+	height: auto; 
+}
+.footer-enlaces img:hover 
+{
+	transform: scale(1.1);
+}
+@keyframes animacion-imagen 
+{
     0% {transform: translateX(100%);}
     70% {transform: translateX(-10px);}
     90% {transform: translateX(5px);}
     100% {transform: translateX(0);}
 }
-@keyframes subir-bajar {
+@keyframes subir-bajar 
+{
   0% {transform: translateY(0);}
   50% {transform: translateY(25px);}
   100% {transform: translateY(0);}
 }
 /* FODSOFT(TM), NSTUDIOS GAMES(TM). Neo Fodere de Frutos. All rights reserved */
-
