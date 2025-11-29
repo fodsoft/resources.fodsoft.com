@@ -12,20 +12,19 @@ main {flex: 1;}
 .titulo{margin-left: 40px;}.titulo-soft{margin-left: 40px; margin-top: 80px;}
 .invertir-color {filter: invert(100%);}
 .bordes {border-radius: 10px;}
-header {
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    align-items: center;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    z-index: 1000;
-    white-space: nowrap;
-    box-sizing: border-box;
-    overflow: hidden;
+header
+{
+	background: #3498db;
+	height: 120px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 40px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1000;
+	clip-path: ellipse(80% 100% at 50% 100%);
 }
 .foto-nf {
   width: 17%;
@@ -324,3 +323,4 @@ footer {
   100% {transform: translateY(0);}
 }
 /* FODSOFT(TM), NSTUDIOS GAMES(TM). Neo Fodere de Frutos. All rights reserved */
+
