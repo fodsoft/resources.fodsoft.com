@@ -24,16 +24,22 @@ const footerFodsoft = `
 	<div class="footer-enlaces">
 		<h2 data-idioma="enlaces_footer">Visit us</h2>
 		<a href="https://fodsoft.itch.io" target="_blank" rel="noopener noreferrer">
-		<img src="https://resources.fodsoft.com/icono_itch.webp" class="invertir-color"></a>
+			<img src="https://resources.fodsoft.com/icono_itch.webp" class="invertir-color">
+		</a>
 		<a href="https://www.instagram.com/fodsoft/" target="_blank" rel="noopener noreferrer">
-		<img src="https://resources.fodsoft.com/icono_instagram.webp" class="invertir-color"></a>
+			<img src="https://resources.fodsoft.com/icono_instagram.webp" class="invertir-color">
+		</a>
 		<a href="https://www.youtube.com/@fodsoft" target="_blank" rel="noopener noreferrer">
-		<img src="https://resources.fodsoft.com/icono_youtube.webp" class="invertir-color"></a>
+			<img src="https://resources.fodsoft.com/icono_youtube.webp" class="invertir-color">
+		</a>
 	</div>
 </footer>
 `;
 const header = document.getElementById("header-fodsoft");
-if (header) header.innerHTML = headerFodsoft;
 const footer = document.getElementById("footer-fodsoft");
-if (footer) footer.innerHTML = footerFodsoft;
+if (header)
+	header.innerHTML = headerFodsoft;
+if (footer)
+	footer.innerHTML = footerFodsoft;
 });
+// FODSOFT(TM), NSTUDIOS GAMES(TM). Neo Fodere de Frutos. All rights reserved
