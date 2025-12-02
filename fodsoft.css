@@ -68,18 +68,14 @@ body
 body.light-theme 
 {
   background: linear-gradient(to top, #ffcccc 0%, #e0e0e0 100%);
-  background-repeat: no-repeat;
-  background-size: 100% 0%; /* empieza sin altura */
-  animation: fondo-animado-claro 8s ease-in-out infinite;
+  animation: fondo-animado-claro 12s ease-in-out infinite;
   color: #000000;
 }
 
 body.dark-theme 
 {
   background: linear-gradient(to top, #444 0%, #202020 100%);
-  background-repeat: no-repeat;
-  background-size: 100% 0%;
-  animation: fondo-animado-oscuro 8s ease-in-out infinite;
+  animation: fondo-animado-oscuro 12s ease-in-out infinite;
   color: #ffffff;
 }
 
@@ -192,15 +188,6 @@ body.light-theme footer
 .logo-principal 
 {
 	width: 170px;
-	height: auto;
-    cursor: pointer;
-    position: relative;
-	pointer-events: none;
-}
-
-.logo-principal-mini 
-{
-	width: 80px;
 	height: auto;
     cursor: pointer;
     position: relative;
@@ -528,17 +515,17 @@ footer
 
 @keyframes fondo-animado-claro 
 {
-  0%   { background-size: 100% 0%; }
-  50%  { background-size: 100% 100%; }
-  75%  { background-size: 100% 100%; }
-  100% { background-size: 100% 0%; }
+  0% { background: linear-gradient(to top, #e0e0e0 0%, #e0e0e0 70%, #ffcccc 100%); }
+  50% { background: linear-gradient(to top, #ffcccc 0%, #f5f5f5 70%, #e0e0e0 100%); }
+  75% { background: linear-gradient(to top, #ffcccc 0%, #ffffff 80%, #e0e0e0 100%); }
+  100% { background: linear-gradient(to top, #e0e0e0 0%, #e0e0e0 70%, #ffcccc 100%); }
 }
 
-@keyframes fondo-animado-oscuro 
+@keyframes fondo-animado-oscuro
 {
-  0%   { background-size: 100% 0%; }
-  50%  { background-size: 100% 100%; }
-  75%  { background-size: 100% 100%; }
-  100% { background-size: 100% 0%; }
+  0% { background: linear-gradient(to top, #202020 0%, #202020 70%, #444 100%); }
+  50% { background: linear-gradient(to top, #444 0%, #2a2a2a 70%, #202020 100%); }
+  75% { background: linear-gradient(to top, #555 0%, #333 80%, #202020 100%); }
+  100% { background: linear-gradient(to top, #202020 0%, #202020 70%, #444 100%); }
 }
 /* FODSOFT(TM), NSTUDIOS GAMES(TM). Neo Fodere de Frutos. All rights reserved */
