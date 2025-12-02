@@ -348,8 +348,8 @@ nav a
 	flex-wrap: wrap;
 	gap: 30px;
 	align-items: flex-start;
-	margin-left: 40px;
-	margin-right: 20px;
+	justify-content: center;
+	margin: 10px;
 }
 
 .software-grid-app
@@ -359,8 +359,7 @@ nav a
 	gap: 30px;
 	align-items: flex-start;
 	justify-content: flex-end;
-	margin-left: 40px;
-	margin-right: 20px;
+	margin: 10px;
 	animation: animacion-imagen 1.5s ease-out;
 }
 
