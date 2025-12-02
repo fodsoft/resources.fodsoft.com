@@ -68,8 +68,8 @@ body
 body.light-theme 
 {
   background: linear-gradient(to top, #e0e0e0 0%, #ffffff 100%);
-  background-size: 100% 200%; /* el doble de alto */
-  background-position: bottom;
+  background-size: 100% 300%;
+  background-position: 0 100%;
   animation: fondo-animado-claro 10s ease-in-out infinite;
   color: #000000;
 }
@@ -77,8 +77,8 @@ body.light-theme
 body.dark-theme 
 {
   background: linear-gradient(to top, #202020 0%, #3a3a3a 100%);
-  background-size: 100% 200%;
-  background-position: bottom;
+  background-size: 100% 300%;
+  background-position: 0 100%;
   animation: fondo-animado-oscuro 10s ease-in-out infinite;
   color: #ffffff;
 }
@@ -540,5 +540,6 @@ footer
   100% { background-position: bottom; }
 }
 /* FODSOFT(TM), NSTUDIOS GAMES(TM). Neo Fodere de Frutos. All rights reserved */
+
 
 
