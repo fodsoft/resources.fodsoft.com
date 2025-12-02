@@ -230,6 +230,17 @@ nav a
   border-bottom-right-radius: 30px;
 }
 
+.video-fondo 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
 .botones 
 {
   position: absolute;
@@ -520,3 +531,4 @@ footer
   100% { background-position: 0% 50%; }
 }
 /* FODSOFT(TM), NSTUDIOS GAMES(TM). Neo Fodere de Frutos. All rights reserved */
+
