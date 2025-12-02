@@ -15,18 +15,18 @@
 header
 {
 	border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    align-items: center;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    z-index: 1000;
-    white-space: nowrap;
-    box-sizing: border-box;
-    overflow: hidden;
+	border-bottom-right-radius: 15px;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	align-items: center;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+	white-space: nowrap;
+	box-sizing: border-box;
+	overflow: hidden;
 }
 
 body.light-theme header
@@ -540,4 +540,5 @@ footer
   100% { background-position: bottom; }
 }
 /* FODSOFT(TM), NSTUDIOS GAMES(TM). Neo Fodere de Frutos. All rights reserved */
+
 
