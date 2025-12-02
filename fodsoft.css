@@ -135,17 +135,13 @@ header
 
 body.dark-theme
 {
-	background: linear-gradient(0deg, #282828, #1f1f1f, #3a3a3a, #202020);
-	background-size: 400% 400%;
-	animation: fondo-animado 8.5s ease infinite;
+	animation: fondo-animado-oscuro 6s ease-in-out infinite;
 	color: #ffffff;
 }
 
 body.light-theme
 {
-	background: linear-gradient(0deg, #ffffff, #ffe5e5, #f5f5f5, #ebebeb, #e0e0e0);
-	background-size: 400% 400%;
-	animation: fondo-animado 8.5s ease infinite;
+	animation: fondo-animado-claro 6s ease-in-out infinite;
 	color: #000000;
 }
 
@@ -524,9 +520,17 @@ footer
   100% { transform: translateY(0); }
 }
 
-@keyframes fondo-animado
+@keyframes fondo-animado-claro
 {
-	0%   { background-position: 50% 100%; }
-	100% { background-position: 50% 0%; }
+	0%   { background: linear-gradient(0deg, #ffffff, #f5f5f5, #ebebeb, #e0e0e0); }
+	50%  { background: linear-gradient(0deg, #ffffff, #ffcccc, #f5f5f5, #ebebeb, #e0e0e0); }
+	100% { background: linear-gradient(0deg, #ffffff, #f5f5f5, #ebebeb, #e0e0e0); }
+}
+
+@keyframes fondo-animado-oscuro
+{
+	0%   { background: linear-gradient(0deg, #282828, #1f1f1f, #3a3a3a, #202020); }
+	50%  { background: linear-gradient(0deg, #282828, #1f1f1f, #334455, #3a3a3a, #202020); }
+	100% { background: linear-gradient(0deg, #282828, #1f1f1f, #3a3a3a, #202020); }
 }
 /* FODSOFT(TM), NSTUDIOS GAMES(TM). Neo Fodere de Frutos. All rights reserved */
