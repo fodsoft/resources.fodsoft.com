@@ -233,7 +233,7 @@ nav a
 .botones 
 {
   position: absolute;
-  top: 88%;
+  top: 75%;
   left: 3%;
   display: flex;
   gap: 20px;
@@ -333,7 +333,7 @@ nav a
 .juego-destacado .logo-ng-titulo
 {
     position: absolute;
-    bottom: 80%;
+    bottom: 75%;
     left: 3%;
     width: 12%;
     height: auto;
@@ -528,6 +528,7 @@ footer
   100% { background-position: 0% 50%; }
 }
 /* FODSOFT(TM), NSTUDIOS GAMES(TM). Neo Fodere de Frutos. All rights reserved */
+
 
 
 
