@@ -151,15 +151,6 @@ main
   animation: subir-bajar 3s ease-in-out infinite;
 }
 
-.icono-nsg 
-{
-  width: 18.5%;
-  float: right;
-  margin-right: 30px;
-  margin-top: 30px;
-  animation: subir-bajar 3s ease-in-out infinite;
-}
-
 .imagen-completa 
 {
   width: 100%;
