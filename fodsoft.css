@@ -349,7 +349,7 @@ nav a
 	gap: 30px;
 	align-items: flex-start;
 	justify-content: center;
-	margin: 10px;
+	margin: 25px;
 }
 
 .software-grid-app
@@ -359,7 +359,7 @@ nav a
 	gap: 30px;
 	align-items: flex-start;
 	justify-content: flex-end;
-	margin: 10px;
+	margin: 25px;
 	animation: animacion-imagen 1.5s ease-out;
 }
 
