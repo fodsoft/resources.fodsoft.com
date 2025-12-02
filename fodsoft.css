@@ -75,7 +75,7 @@ body.light-theme
 
 body.dark-theme 
 {
-  background: linear-gradient(270deg, #282828, #3a3a3a, #282828);
+  background: linear-gradient(270deg, #282828, #4a4a4a, #282828);
   background-size: 600% 600%;
   animation: mover-oscuro 15s ease infinite;
   color: #ffffff;
