@@ -165,7 +165,7 @@ body.dark-theme footer
 
 body.light-theme
 {
-	background: linear-gradient(270deg, #ebebeb, #d6d6d6, #bfbfbf, #f5f5f5);
+	background: linear-gradient(270deg, #ffffff, #f5f5f5, #ebebeb, #e0e0e0);
 	background-size: 400% 400%;
 	animation: fondo-animado 8s ease infinite;
 	color: #000000;
@@ -531,3 +531,4 @@ footer
 	100% { background-position: 0% 50%; }
 }
 /* FODSOFT(TM), NSTUDIOS GAMES(TM). Neo Fodere de Frutos. All rights reserved */
+
