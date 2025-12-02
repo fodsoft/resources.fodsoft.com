@@ -8,7 +8,7 @@
 @font-face
 {
 	font-family: 'Acme'; 
-	src: url('fonts/Acme.ttf') 
+	src: url('acme.ttf') 
 	format('truetype');
 }
 
@@ -540,3 +540,4 @@ footer
   100% { background-position: bottom; }
 }
 /* FODSOFT(TM), NSTUDIOS GAMES(TM). Neo Fodere de Frutos. All rights reserved */
+
