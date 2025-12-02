@@ -55,32 +55,47 @@ body.dark-theme header
   box-sizing: border-box;
 }
 
-body
+body 
 {
-    font-family: 'montserrat', sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+  position: relative;
+  margin: 0;
+  min-height: 100vh;
+  overflow: hidden;
 }
 
 body.light-theme 
 {
-  background: linear-gradient(to top, #e0e0e0 0%, #ffffff 100%);
-  background-size: 100% 300%;
-  background-position: 0 100%;
-  animation: fondo-animado-claro 10s ease-in-out infinite;
-  color: #000000;
+  background-color: #e0e0e0;
+  color: #000;
 }
 
 body.dark-theme 
 {
-  background: linear-gradient(to top, #202020 0%, #3a3a3a 100%);
-  background-size: 100% 300%;
-  background-position: 0 100%;
-  animation: fondo-animado-oscuro 10s ease-in-out infinite;
-  color: #ffffff;
+  background-color: #202020;
+  color: #fff;
+}
+
+body.light-theme::before,
+body.dark-theme::before 
+{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  z-index: -1;
+  animation: ola 10s ease-in-out infinite;
+}
+
+body.light-theme::before 
+{
+  background: #ffcccc;
+}
+
+body.dark-theme::before 
+{
+  background: #444;
 }
 
 .body-fodfru
@@ -526,20 +541,11 @@ footer
   100% { transform: translateY(0); }
 }
 
-@keyframes fondo-animado-claro {
-  0%   { background-position: bottom; }
-  50%  { background-position: top; }
-  75%  { background-position: top; }
-  100% { background-position: bottom; }
-}
-
-@keyframes fondo-animado-oscuro {
-  0%   { background-position: bottom; }
-  50%  { background-position: top; }
-  75%  { background-position: top; }
-  100% { background-position: bottom; }
+@keyframes ola 
+{
+  0%   { height: 0%; }
+  50%  { height: 100%; }
+  75%  { height: 100%; }
+  100% { height: 0%; }
 }
 /* FODSOFT(TM), NSTUDIOS GAMES(TM). Neo Fodere de Frutos. All rights reserved */
-
-
-
