@@ -282,12 +282,16 @@ nav a
   left: 2%;
   max-width: 450px;
   padding: 20px;
-  z-index: 2;
+  z-index: 5;
   color: white;
   font-family: montserrat, sans-serif;
   line-height: 1.6;
   text-align: left;
   animation: animacion-imagen 2s ease-out;
+}
+.desc-dest p:hover
+{
+  z-index: 6;
 }
 
 .juego-destacado video
