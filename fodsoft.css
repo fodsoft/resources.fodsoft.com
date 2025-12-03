@@ -23,7 +23,7 @@ header
 	width: 100%;
 	position: fixed;
 	top: 0;
-	z-index: 1000;
+	z-index: 10;
 	white-space: nowrap;
 	box-sizing: border-box;
 	overflow: hidden;
@@ -346,7 +346,7 @@ nav a
     background: #282828;
     border-radius: 12px;
 	position: relative;
-    z-index: 999;
+    z-index: 3;
 }
 
 .juego-destacado .logo-ng-titulo
@@ -547,5 +547,6 @@ footer
   100% { background-position: 0% 50%; }
 }
 /* FODSOFT(TM), NSTUDIOS GAMES(TM). Neo Fodere de Frutos. All rights reserved */
+
 
 
