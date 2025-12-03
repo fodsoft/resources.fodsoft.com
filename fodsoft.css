@@ -328,11 +328,13 @@ nav a
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
-    background: rgba(0,0,0,0.6);
+    background: transparent;
     color: #fff;
     padding: 10px;
     border-radius: 12px;
     transition: all 0.3s ease;
+	position: relative;
+    z-index: 0;     
 }
 
 .desc-dest p:hover 
@@ -343,6 +345,8 @@ nav a
     overflow: visible;
     background: #282828;
     border-radius: 12px;
+	position: relative;
+    z-index: 999;
 }
 
 .juego-destacado .logo-ng-titulo
@@ -543,4 +547,5 @@ footer
   100% { background-position: 0% 50%; }
 }
 /* FODSOFT(TM), NSTUDIOS GAMES(TM). Neo Fodere de Frutos. All rights reserved */
+
 
