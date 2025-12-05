@@ -67,7 +67,7 @@ body
 
 body.light-theme 
 {
-  background: linear-gradient(270deg, #ebebeb, #ff6666, #ebebeb);
+  background: linear-gradient(270deg, #ebebeb, #e07070, #ebebeb);
   background-size: 600% 600%;
   animation: fondo-animado 15s ease infinite;
   color: #000000;
