@@ -15,6 +15,7 @@ const headerFodsoft = `
 	</select>
 </header>
 `;
+	
 const footerFodsoft = `
 <footer class="light-theme">
 	<div class="footer-centro">
@@ -27,7 +28,7 @@ const footerFodsoft = `
 			<img src="https://resources.fodsoft.com/icono_itch.webp" class="invertir-color">
 		</a>
 		<a href="https://es.linkedin.com/company/fodsoft" target="_blank" rel="noopener noreferrer">
-			<img src="https://resources.fodsoft.com/icono_linkedin.webp" class="invertir-color">
+			<img src="https://resources.fodsoft.com/icono_linkedin.webp" class="invertir-color bordes">
 		</a>
 		<a href="https://www.instagram.com/fodsoft/" target="_blank" rel="noopener noreferrer">
 			<img src="https://resources.fodsoft.com/icono_instagram.webp" class="invertir-color">
@@ -45,4 +46,4 @@ if (header)
 if (footer)
 	footer.innerHTML = footerFodsoft;
 });
-// FODSOFT(TM), NSTUDIOS GAMES(TM). Neo Fodere de Frutos. All rights reserved
+// FODSOFT(TM), NSTUDIOS GAMES(TM). Neo Fodere de Frutos. All rights reserved.
