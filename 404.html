@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>404 Error - FODSOFT&trade;</title>
-		<link rel="icon" href="https://fodsoft.com/favicon.ico"
+		<link rel="icon" href="https://fodsoft.com/favicon.ico">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="https://resources.fodsoft.com/fodsoft.css">
 		<script src="https://resources.fodsoft.com/fodsoft.js" defer></script>
@@ -14,8 +14,25 @@
 		<main class="error-404">
 			<img src="https://resources.fodsoft.com/logo_fodsoft_404_error.webp">
 			<p data-idioma="404"><strong></strong></p>
+			<p style="color:red; font-weight:bold; font-size:20px;">
+				<span id="contador"></span>
+			</p>
 		</main>
 		<div id="footer-fodsoft"></div>
+		<script>
+			let tiempo = 10;
+			const countdown = document.getElementById("contador");
+			const intervalo = setInterval(() =>
+			{
+				tiempo--;
+				countdown.textContent = tiempo;
+				if (tiempo <= 0)
+				{
+					clearInterval(intervalo);
+					window.location.href = "https://fodsoft.com";
+				}
+			}, 1000);
+		</script>
 	</body>
 </html>
 <!-- FODSOFT(TM), NSTUDIOS GAMES(TM). Neo Fodere de Frutos. All rights reserved -->
