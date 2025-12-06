@@ -26,6 +26,9 @@ const footerFodsoft = `
 		<a href="https://fodsoft.itch.io" target="_blank" rel="noopener noreferrer">
 			<img src="https://resources.fodsoft.com/icono_itch.webp" class="invertir-color">
 		</a>
+		<a href="https://es.linkedin.com/company/fodsoft" target="_blank" rel="noopener noreferrer">
+			<img src="https://resources.fodsoft.com/icono_linkedin.webp" class="invertir-color">
+		</a>
 		<a href="https://www.instagram.com/fodsoft/" target="_blank" rel="noopener noreferrer">
 			<img src="https://resources.fodsoft.com/icono_instagram.webp" class="invertir-color">
 		</a>
