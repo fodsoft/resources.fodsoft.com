@@ -2,6 +2,7 @@
   "en":
   {
     "inicio": "Home",
+    "soft-juego": "FODSOFT™ software related to games",
     "proyectos": "Software",
     "juegos": "Games",
     "info": "About",
@@ -19,6 +20,7 @@
   "es":
   {
     "inicio": "Inicio",
+    "soft-juego": "Software de FODSOFT™ relacionado con juegos",
     "proyectos": "Software",
     "juegos": "Juegos",
     "info": "Acerca de",
@@ -36,6 +38,7 @@
   "fr":
   {
     "inicio": "Accueil",
+    "soft-juego": "Logiciel FODSOFT™ lié aux jeux",
     "proyectos": "Software",
     "juegos": "Jeux",
     "info": "À propos",
