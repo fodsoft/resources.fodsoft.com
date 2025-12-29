@@ -1,8 +1,11 @@
 <script>
   window.location.href = "https://resources.fodsoft.com/downloads/vdream-v1.3-win-x64-portable.7z";
   setTimeout(() => 
-  { 
-    history.back();
+  {
+    if (history.length <= 1)
+      window.location.href = "https://fodsoft.com";
+    else
+      history.back();
   }, 3000);
 </script>
 <!-- FODSOFT(TM). Neo Fodere de Frutos. All rights reserved. -->
