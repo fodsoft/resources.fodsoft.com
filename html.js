@@ -112,13 +112,13 @@ document.addEventListener("DOMContentLoaded", () =>
 
 			<div class="menu-nav">
 				<img src="https://resources.fodsoft.com/images/webp/icono_menu.webp"
-         			class="icono-lista-nav" draggable="false" oncontextmenu="return false">
+         			class="icono-lista-nav invertir-color" draggable="false" oncontextmenu="return false">
 				<div class="lista-nav">
 					<a href="https://nstudios-games.fodsoft.com/">
 						<img src="https://resources.fodsoft.com/images/webp/icono_inicio.webp"
 							class="icono-software" draggable="false" oncontextmenu="return false"> Inicio
 					</a>
-					<a href="https:/fodsoft.com/">
+					<a href="https://fodsoft.com/">
 						<img src="https://resources.fodsoft.com/images/webp/icono_soft.webp"
 							class="icono-software" draggable="false" oncontextmenu="return false"> Software
 					</a>
