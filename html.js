@@ -4,12 +4,14 @@ document.addEventListener("DOMContentLoaded", () =>
 		<div class="header-fodsoft">
 			<div class="menu-software">
 	            <img src="https://resources.fodsoft.com/images/webp/icono_software.webp"
-	                 class="icono-software"
+	                 class="icono-lista"
 	                 draggable="false"
 	                 oncontextmenu="return false">
 	            <div class="lista-software">
-	                <a href="https://fodsoft.com/vdream">V.Dream</a>
-	                <!-- Añade aquí todos tus programas -->
+					<a href="https://fodsoft.com/vdream">
+						<img src="https://resources.fodsoft.com/images/webp/icono_vdream.webp"
+							class="icono-software" draggable="false" oncontextmenu="return false"> V.Dream
+					</a>
 	            </div>
 			</div>
 	        <div class="logo-header-fodsoft">
