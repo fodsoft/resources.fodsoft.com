@@ -9,7 +9,8 @@
 .header-fodsoft
 {
 	background: #ececec;
-	border-radius: 12px;
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
 	padding: 10px 20px;
 	display: flex;
 	align-items: center;
@@ -20,7 +21,6 @@
 
 .logo-header-fodsoft
 {
-	height: 30px;
 	margin-left: -20px;
 	margin-top: -30px;
 	position: relative;
@@ -47,6 +47,7 @@
 	font-size: 1.1rem;
 }
 /* FODSOFT(TM). Neo Fodere de Frutos. All rights reserved. */
+
 
 
 
