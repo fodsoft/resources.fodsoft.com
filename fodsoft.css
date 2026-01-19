@@ -18,6 +18,18 @@
 	overflow: visible;
 }
 
+.header-nsg
+{
+	background: #4d4d4d;
+	padding: 0 20px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
+	overflow: visible;
+}
+
 .logo-header-fodsoft
 {
 	display: flex;
@@ -135,5 +147,6 @@
     }
 }
 /* FODSOFT(TM). Neo Fodere de Frutos. All rights reserved. */
+
 
 
