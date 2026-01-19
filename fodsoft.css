@@ -54,4 +54,48 @@
 	user-select: none;
 	vertical-align: middle;
 }
+
+.menu-software
+{
+    position: relative;
+    margin-right: 15px;
+}
+
+.icono-software
+{
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.lista-software
+{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background: #fff;
+    border-radius: 8px;
+    padding: 10px 0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    display: none;
+    flex-direction: column;
+    min-width: 180px;
+    z-index: 999;
+}
+
+.lista-software a
+{
+    padding: 8px 15px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    display: block;
+}
+
+.lista-software a:hover 
+{
+	background: #ececec;
+}
 /* FODSOFT(TM). Neo Fodere de Frutos. All rights reserved. */
