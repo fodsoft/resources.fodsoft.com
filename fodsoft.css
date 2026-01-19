@@ -13,16 +13,16 @@
 
 .header-fodsoft 
 {
-	background: #ececec;
-	border-bottom-left-radius: 12px;
-	border-bottom-right-radius: 12px;
-	padding: 0 20px;
-	height: 50px;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	position: relative;
-	overflow: visible;
+    background: #ececec;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding: 0 20px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    overflow: visible;
 }
 
 .logo-header-fodsoft
@@ -40,9 +40,10 @@
 
 .links-header-fodsoft 
 {
-	display: flex;
-	align-items: center;
-	gap: 25px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-top: 7px;
 }
 
 .link-header-fodsoft 
@@ -53,5 +54,6 @@
     font-size: 1.1rem;
 }
 /* FODSOFT(TM). Neo Fodere de Frutos. All rights reserved. */
+
 
 
