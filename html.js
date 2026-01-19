@@ -41,8 +41,8 @@ document.addEventListener("DOMContentLoaded", () =>
 					<img src="https://resources.fodsoft.com/images/webp/icono_inicio.webp"
 						class="icono-header" draggable="false" oncontextmenu="return false"> Home</a>
 				<a href="https://nstudios-games.fodsoft.com" class="link-header-fodsoft">
-					<img src="https://resources.fodsoft.com/images/webp/icono_juegos.webp"
-						class="icono-header" draggable="false" oncontextmenu="return false"> Games</a>
+					<img src="https://resources.fodsoft.com/images/webp/icono_soft.webp"
+						class="icono-header" draggable="false" oncontextmenu="return false"> Software</a>
 				<a href="https://neofodere.fodsoft.com" class="link-header-fodsoft">
 					<img src="https://resources.fodsoft.com/images/webp/icono_acerca.webp"
 						class="icono-header" draggable="false" oncontextmenu="return false"> About</a>
@@ -113,7 +113,7 @@ document.addEventListener("DOMContentLoaded", () =>
 					</a>
 					<a href="https:/fodsoft.com/">
 						<img src="https://resources.fodsoft.com/images/webp/icono_soft.webp"
-							class="icono-software" draggable="false" oncontextmenu="return false"> Games
+							class="icono-software" draggable="false" oncontextmenu="return false"> Software
 					</a>
 					<a href="https://neofodere.fodsoft.com/">
 						<img src="https://resources.fodsoft.com/images/webp/icono_acerca.webp"
