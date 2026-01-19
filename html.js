@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", () =>
 			<div class="menu-software">
 	            <img src="https://resources.fodsoft.com/images/webp/icono_software.webp"
 	                 class="icono-lista-software" draggable="false" oncontextmenu="return false">
-	            <div class="lista-software invertir-color">
+	            <div class="lista-software">
 					<a href="https://nstudios-games.fodsoft.com/fodfru" class="invertir-color">
 						<img src="https://resources.fodsoft.com/images/webp/icono_fodfru.webp"
 							class="icono-software" draggable="false" oncontextmenu="return false"> FodFru&trade;
@@ -113,7 +113,7 @@ document.addEventListener("DOMContentLoaded", () =>
 			<div class="menu-nav">
 				<img src="https://resources.fodsoft.com/images/webp/icono_menu.webp"
          			class="icono-lista-nav" draggable="false" oncontextmenu="return false">
-				<div class="lista-nav invertir-color">
+				<div class="lista-nav">
 					<a href="https://nstudios-games.fodsoft.com/">
 						<img src="https://resources.fodsoft.com/images/webp/icono_inicio.webp"
 							class="icono-software invertir-color" draggable="false" oncontextmenu="return false"> Inicio
