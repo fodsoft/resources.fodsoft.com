@@ -23,4 +23,51 @@ document.addEventListener("click", (e) =>
     else
         menuNav.style.display = "none";
 });
+
+document.addEventListener("DOMContentLoaded", async () =>
+{
+	function soportaWebP()
+	{
+		return new Promise(resolve =>
+		{
+			const img = new Image();
+			img.onload = () => resolve(img.width > 0);
+			img.onerror = () => resolve(false);
+			img.src = "data:image/webp;base64,UklGRiIAAABXRUJQVlA4IBgAAAAwAQCdASoEAAQAAVAfCWkA";
+		});
+	}
+
+	function esChromium() 
+	{
+		return (/Chrome|Chromium|Edg|OPR|Brave/.test(navigator.userAgent));
+	}
+
+	function fallbackPNG(img)
+	{
+		if (img.src.includes(".webp"))
+		{
+			img.src = img.src.replace(".webp", ".png");
+		}
+	}
+	const webpOK = await soportaWebP();
+	const chromiumOK = esChromium();
+	const imagenes = document.querySelectorAll("img");
+	if (!webpOK || !chromiumOK)
+	{
+		imagenes.forEach(img =>
+		{
+			if (img.src.includes(".webp"))
+			{
+				img.src = img.src.replace(".webp", ".png");
+            }
+            img.onerror = () => fallbackPNG(img);
+		});
+		return;
+	}
+	imagenes.forEach(img =>
+	{
+		img.onerror = () => fallbackPNG(img);
+	});
+
+});
 // FODSOFT(TM). Neo Fodere de Frutos. All rights reserved.
