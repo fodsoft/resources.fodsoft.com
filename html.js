@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => 
 {
-	const fodsoft-header = `
+	const fodsoft_header = `
 		<div class="header-fodsoft">
 			<div class="menu-software">
 	            <img src="https://resources.fodsoft.com/images/webp/icono_software.webp"
@@ -69,9 +69,9 @@ document.addEventListener("DOMContentLoaded", () =>
 			</div>
         </div>
 	`;
-    document.getElementById("header-fodsoft").innerHTML = fodsoft-header;
+    document.getElementById("header-fodsoft").innerHTML = fodsoft_header;
 
-	const nsg-header = `
+	const nsg_header = `
 		<div class="header-nsg">
 			<div class="menu-software">
 	            <img src="https://resources.fodsoft.com/images/webp/icono_software.webp"
@@ -124,6 +124,6 @@ document.addEventListener("DOMContentLoaded", () =>
 			</div>
         </div>
 	`;
-    document.getElementById("header-fodsoft").innerHTML = header-nsg;
+    document.getElementById("header-nsg").innerHTML = nsg_header;
 });
 // FODSOFT(TM). Neo Fodere de Frutos. All rights reserved.
