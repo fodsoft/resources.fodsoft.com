@@ -38,6 +38,7 @@
 {
     height: 65px;
     display: block;
+	overflow: visible;
 }
 
 .links-header-fodsoft 
@@ -55,3 +56,4 @@
     font-size: 1.1rem;
 }
 /* FODSOFT(TM). Neo Fodere de Frutos. All rights reserved. */
+
