@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () =>
 	const fodsoft_header = `
 		<div class="header-base header-fodsoft">
 			<div class="menu-software">
-	            <img src="https://resources.fodsoft.com/images/webp/icono_software.webp"
+				<img src="https://resources.fodsoft.com/images/webp/icono_software.webp"
 	                 class="icono-lista-software" draggable="false" oncontextmenu="return false">
 	            <div class="lista-software">
 					<a href="https://fodsoft.com/vdream">
