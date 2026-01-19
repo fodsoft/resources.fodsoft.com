@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => 
 {
 	const fodsoft_header = `
-		<div class="header-fodsoft">
+		<div class="header-base header-fodsoft">
 			<div class="menu-software">
 	            <img src="https://resources.fodsoft.com/images/webp/icono_software.webp"
 	                 class="icono-lista-software" draggable="false" oncontextmenu="return false">
@@ -29,23 +29,23 @@ document.addEventListener("DOMContentLoaded", () =>
 	            </div>
 			</div>
 
-	        <div class="logo-header-fodsoft">
+	        <div class="header-logo">
 				<a href="https://fodsoft.com/">
-		        	<img src="https://resources.fodsoft.com/images/webp/fodsoft_header.webp" class="logo-fodsoft-header"
+		        	<img src="https://resources.fodsoft.com/images/webp/fodsoft_header.webp" class="logo-header"
 						draggable="false" oncontextmenu="return false;">
 				</a>
             </div>
 
-            <nav class="links-header-fodsoft">
-                <a href="https://fodsoft.com" class="link-header-fodsoft">
+            <nav class="links-header">
+                <a href="https://fodsoft.com" class="link-header-base link-header-fodsoft">
 					<img src="https://resources.fodsoft.com/images/webp/icono_inicio.webp"
 						class="icono-header" draggable="false" oncontextmenu="return false"> Home
 				</a>
-				<a href="https://nstudios-games.fodsoft.com" class="link-header-fodsoft">
+				<a href="https://nstudios-games.fodsoft.com" class="link-header-base link-header-fodsoft">
 					<img src="https://resources.fodsoft.com/images/webp/icono_juegos.webp"
 						class="icono-header" draggable="false" oncontextmenu="return false"> Games
 				</a>
-				<a href="https://neofodere.fodsoft.com" class="link-header-fodsoft">
+				<a href="https://neofodere.fodsoft.com" class="link-header-base link-header-fodsoft">
 					<img src="https://resources.fodsoft.com/images/webp/icono_acerca.webp"
 						class="icono-header" draggable="false" oncontextmenu="return false"> About
 				</a>
@@ -73,38 +73,39 @@ document.addEventListener("DOMContentLoaded", () =>
         </div>
 	`;
 
+
 	const nsg_header = `
-		<div class="header-nsg">
+		<div class="header-base header-nsg">
 			<div class="menu-software">
 	            <img src="https://resources.fodsoft.com/images/webp/icono_software.webp"
 	                 class="icono-lista-software" draggable="false" oncontextmenu="return false">
-	            <div class="lista-software">
-					<a href="https://nstudios-games.fodsoft.com/fodfru">
+	            <div class="lista-software invertir-color">
+					<a href="https://nstudios-games.fodsoft.com/fodfru" class="invertir-color">
 						<img src="https://resources.fodsoft.com/images/webp/icono_fodfru.webp"
 							class="icono-software" draggable="false" oncontextmenu="return false"> FodFru&trade;
 					</a>
 	            </div>
 			</div>
 
-	        <div class="logo-header-fodsoft">
+	        <div class="header-logo">
 				<a href="https://nstudios-games.fodsoft.com/">
-		        	<img src="https://resources.fodsoft.com/images/webp/nstudios_games_header.webp" class="logo-fodsoft-header"
+		        	<img src="https://resources.fodsoft.com/images/webp/nstudios_games_header.webp" class="logo-header"
 						draggable="false" oncontextmenu="return false;">
 				</a>
             </div>
 
-            <nav class="links-header-fodsoft">
-                <a href="https://nstudios-games.fodsoft.com" class="link-header-fodsoft">
+            <nav class="links-header">
+                <a href="https://nstudios-games.fodsoft.com" class="link-header-base link-header-nsg  invertir-color">
 					<img src="https://resources.fodsoft.com/images/webp/icono_inicio.webp"
-						class="icono-header" draggable="false" oncontextmenu="return false"> Home
+						class="icono-header invertir-color" draggable="false" oncontextmenu="return false"> Home
 				</a>
-				<a href="https://fodsoft.com" class="link-header-fodsoft">
+				<a href="https://fodsoft.com" class="link-header-base link-header-nsg  invertir-color">
 					<img src="https://resources.fodsoft.com/images/webp/icono_soft.webp"
 						class="icono-header" draggable="false" oncontextmenu="return false"> Software
 				</a>
-				<a href="https://neofodere.fodsoft.com" class="link-header-fodsoft">
+				<a href="https://neofodere.fodsoft.com" class="link-header-base link-header-nsg  invertir-color">
 					<img src="https://resources.fodsoft.com/images/webp/icono_acerca.webp"
-						class="icono-header" draggable="false" oncontextmenu="return false"> About
+						class="icono-header invertir-color" draggable="false" oncontextmenu="return false"> About
 				</a>
                 <div id="selector-idiomas"></div>
             </nav>
@@ -112,10 +113,10 @@ document.addEventListener("DOMContentLoaded", () =>
 			<div class="menu-nav">
 				<img src="https://resources.fodsoft.com/images/webp/icono_menu.webp"
          			class="icono-lista-nav" draggable="false" oncontextmenu="return false">
-				<div class="lista-nav">
+				<div class="lista-nav invertir-color">
 					<a href="https://nstudios-games.fodsoft.com/">
 						<img src="https://resources.fodsoft.com/images/webp/icono_inicio.webp"
-							class="icono-software" draggable="false" oncontextmenu="return false"> Inicio
+							class="icono-software invertir-color" draggable="false" oncontextmenu="return false"> Inicio
 					</a>
 					<a href="https:/fodsoft.com/">
 						<img src="https://resources.fodsoft.com/images/webp/icono_soft.webp"
@@ -123,7 +124,7 @@ document.addEventListener("DOMContentLoaded", () =>
 					</a>
 					<a href="https://neofodere.fodsoft.com/">
 						<img src="https://resources.fodsoft.com/images/webp/icono_acerca.webp"
-							class="icono-software" draggable="false" oncontextmenu="return false"> About
+							class="icono-software invertir-color" draggable="false" oncontextmenu="return false"> About
 					</a>
 				</div>
 			</div>
