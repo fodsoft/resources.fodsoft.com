@@ -112,7 +112,7 @@ document.addEventListener("DOMContentLoaded", () =>
 
 			<div class="menu-nav">
 				<img src="https://resources.fodsoft.com/images/webp/icono_menu.webp"
-         			class="icono-lista-nav" draggable="false" oncontextmenu="return false">
+         			class="icono-lista-nav invertir-color" draggable="false" oncontextmenu="return false">
 				<div class="lista-nav">
 					<a href="https://nstudios-games.fodsoft.com/">
 						<img src="https://resources.fodsoft.com/images/webp/icono_inicio.webp"
