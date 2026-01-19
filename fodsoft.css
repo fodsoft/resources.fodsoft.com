@@ -6,7 +6,8 @@
 	font-style: normal;
 } /* Montserrat, Designed by Julieta Ulanovsky, Sol Matas, Juan Pablo del Peral, Jacques Le Bailly */
 
-.header-fodsoft {
+.header-fodsoft 
+{
     background: #ececec;
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
@@ -19,23 +20,30 @@
     overflow: visible;
 }
 
-.logo-header-fodsoft {
+.logo-header-fodsoft 
+{
+    width: 80px;
+    height: 60px;
     display: flex;
     align-items: center;
+    justify-content: flex-start;
 }
 
-.logo-fodsoft-header {
+.logo-fodsoft-header 
+{
     height: 70px;
-    margin-bottom: -15px;
+    transform: translateY(10px);
 }
 
-.links-header-fodsoft {
+.links-header-fodsoft 
+{
     display: flex;
     align-items: center;
     gap: 25px;
 }
 
-.link-header-fodsoft {
+.link-header-fodsoft 
+{
     text-decoration: none;
     font-weight: 600;
     color: #333;
