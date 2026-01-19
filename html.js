@@ -95,7 +95,7 @@ document.addEventListener("DOMContentLoaded", () =>
             </div>
 
             <nav class="links-header">
-                <a href="https://nstudios-games.fodsoft.com" class="link-header-base link-header-nsg  invertir-color">
+                <a href="https://nstudios-games.fodsoft.com" class="link-header-base link-header-nsg">
 					<img src="https://resources.fodsoft.com/images/webp/icono_inicio.webp"
 						class="icono-header invertir-color" draggable="false" oncontextmenu="return false"> Home
 				</a>
@@ -103,7 +103,7 @@ document.addEventListener("DOMContentLoaded", () =>
 					<img src="https://resources.fodsoft.com/images/webp/icono_soft.webp"
 						class="icono-header" draggable="false" oncontextmenu="return false"> Software
 				</a>
-				<a href="https://neofodere.fodsoft.com" class="link-header-base link-header-nsg  invertir-color">
+				<a href="https://neofodere.fodsoft.com" class="link-header-base link-header-nsg">
 					<img src="https://resources.fodsoft.com/images/webp/icono_acerca.webp"
 						class="icono-header invertir-color" draggable="false" oncontextmenu="return false"> About
 				</a>
@@ -112,7 +112,7 @@ document.addEventListener("DOMContentLoaded", () =>
 
 			<div class="menu-nav">
 				<img src="https://resources.fodsoft.com/images/webp/icono_menu.webp"
-         			class="icono-lista-nav invertir-color" draggable="false" oncontextmenu="return false">
+         			class="icono-lista-nav" draggable="false" oncontextmenu="return false">
 				<div class="lista-nav">
 					<a href="https://nstudios-games.fodsoft.com/">
 						<img src="https://resources.fodsoft.com/images/webp/icono_inicio.webp"
@@ -120,7 +120,7 @@ document.addEventListener("DOMContentLoaded", () =>
 					</a>
 					<a href="https:/fodsoft.com/">
 						<img src="https://resources.fodsoft.com/images/webp/icono_soft.webp"
-							class="icono-software invertir-color" draggable="false" oncontextmenu="return false"> Software
+							class="icono-software" draggable="false" oncontextmenu="return false"> Software
 					</a>
 					<a href="https://neofodere.fodsoft.com/">
 						<img src="https://resources.fodsoft.com/images/webp/icono_acerca.webp"
