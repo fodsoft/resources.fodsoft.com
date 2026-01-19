@@ -3,7 +3,8 @@ document.addEventListener("DOMContentLoaded", () =>
 	const header = `
 		<div class="header-fodsoft">
             <div class="logo-header-fodsoft">
-                <img src="https://resources.fodsoft.com/images/webp/fodsoft_header.webp" class="logo-fodsoft-header">
+                <img src="https://resources.fodsoft.com/images/webp/fodsoft_header.webp" class="logo-fodsoft-header"
+					draggable="false" oncontextmenu="return false;">
             </div>
             <nav class="links-header-fodsoft">
                 <a href="https://fodsoft.com" class="link-header-fodsoft">Home</a>
