@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", () =>
 		<div class="header-base header-nsg">
 			<div class="menu-software">
 	            <img src="https://resources.fodsoft.com/images/webp/icono_software.webp"
-	                 class="icono-lista-software" draggable="false" oncontextmenu="return false">
+	                 class="icono-lista-software invertir-color" draggable="false" oncontextmenu="return false">
 	            <div class="lista-software">
 					<a href="https://nstudios-games.fodsoft.com/fodfru">
 						<img src="https://resources.fodsoft.com/images/webp/icono_fodfru.webp"
