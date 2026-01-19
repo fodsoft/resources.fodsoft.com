@@ -30,6 +30,7 @@
 {
 	height: 70px;
 	transform: translateY(15px);
+	user-select: none;
 }
 
 .links-header-fodsoft
@@ -49,10 +50,9 @@
 
 .icono-header
 {
-	width: 20px;
-	height: 20px;
+	width: 32px;
+	height: 32px;
 	margin-right: 8px;
-	-webkit-user-drag: none;
 	user-select: none;
 	vertical-align: middle;
 }
