@@ -33,31 +33,26 @@
 
 .links-header-fodsoft
 {
-	display: flex;
-	align-items: center;
-	gap: 25px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
 }
 
 .link-header-fodsoft
 {
-	text-decoration: none;
-	font-weight: 600;
-	color: #000;
-	font-size: 1.1rem;
+    text-decoration: none;
+    font-weight: 600;
+    color: #000;
+    font-size: 1.1rem;
 }
 
 .icono-header
 {
-	width: 26px;
-	height: 26px;
-	margin-right: 5px;
-	user-select: none;
-	vertical-align: middle;
-}
-
-.menu-nav
-{
-	display: none; 
+    width: 26px;
+    height: 26px;
+    margin-right: 5px;
+    user-select: none;
+    vertical-align: middle;
 }
 
 .menu-software
@@ -66,15 +61,15 @@
     margin-right: 15px;
 }
 
-@media (max-width: 700px)
-{ 
-	.links-header-fodsoft 
-	{ 
-		display: none;
-	}
+.menu-nav
+{
+    display: none;
+    position: relative;
+    margin-left: 15px;
 }
 
-.icono-lista
+.icono-lista-software,
+.icono-lista-nav
 {
     width: 32px;
     height: 32px;
@@ -85,12 +80,13 @@
 
 .icono-software
 {
-	width: auto;
-	height: 22px;
-	user-select: none;
+    width: auto;
+    height: 22px;
+    user-select: none;
 }
 
-.lista-software
+.lista-software,
+.lista-nav
 {
     position: absolute;
     top: 40px;
@@ -105,22 +101,33 @@
     z-index: 999;
 }
 
-.lista-software a
+.lista-software a,
+.lista-nav a
 {
     padding: 8px 15px;
     text-decoration: none;
     color: #000;
     font-weight: 500;
-    display: block;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
-.lista-software a:hover 
+.lista-software a:hover,
+.lista-nav a:hover
 {
-	background: #ececec;
+    background: #ececec;
+}
+
+@media (max-width: 700px)
+{
+    .links-header-fodsoft
+	{
+        display: none;
+    }
+    .menu-nav
+	{
+        display: block;
+    }
 }
 /* FODSOFT(TM). Neo Fodere de Frutos. All rights reserved. */
-
-
-
-
-
