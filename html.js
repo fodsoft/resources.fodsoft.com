@@ -36,6 +36,34 @@ document.addEventListener("DOMContentLoaded", () =>
 						draggable="false" oncontextmenu="return false;">
 				</a>
             </div>
+
+			<div class="menu-nav">
+	            <img src="https://resources.fodsoft.com/images/webp/icono_software.webp"
+	                 class="icono-lista"
+	                 draggable="false"
+	                 oncontextmenu="return false">
+	            <div class="lista-software">
+					<a href="https://fodsoft.com/">
+						<img src="https://resources.fodsoft.com/images/webp/icono_inicio.webp"
+							class="icono-software" draggable="false" oncontextmenu="return false"> Inicio
+					</a>
+					<a href="https://nstudios-games.fodsoft.com/">
+						<img src="https://resources.fodsoft.com/images/webp/icono_juegos.webp"
+							class="icono-software" draggable="false" oncontextmenu="return false"> Games;
+					</a>
+					<a href="https://neofodere.fodsoft.com/">
+						<img src="https://resources.fodsoft.com/images/webp/icono_denfo.webp"
+							class="icono-software" draggable="false" oncontextmenu="return false"> About;
+					</a>
+	            </div>
+			</div>
+	        <div class="logo-header-fodsoft">
+				<a href="https://fodsoft.com/">
+		        	<img src="https://resources.fodsoft.com/images/webp/fodsoft_header.webp" class="logo-fodsoft-header"
+						draggable="false" oncontextmenu="return false;">
+				</a>
+            </div>
+
             <nav class="links-header-fodsoft">
                 <a href="https://fodsoft.com" class="link-header-fodsoft">
 					<img src="https://resources.fodsoft.com/images/webp/icono_inicio.webp"
