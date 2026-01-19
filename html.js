@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", () =>
 	                 class="icono-lista-software invertir-color" draggable="false" oncontextmenu="return false">
 	            <div class="lista-software">
 					<a href="https://nstudios-games.fodsoft.com/fodfru">
-						<img src="https://resources.fodsoft.com/images/webp/icono_fodfru.webp"
+						<img src="https://raw.githubusercontent.com/neofodere/fodfru/main/images/icono_fodfru.png"
 							class="icono-software" draggable="false" oncontextmenu="return false"> FodFru&trade;
 					</a>
 	            </div>
