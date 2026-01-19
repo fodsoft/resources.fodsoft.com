@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () =>
 						<img src="https://resources.fodsoft.com/images/webp/icono_fvax.webp"
 							class="icono-software" draggable="false" oncontextmenu="return false"> FVAX
 					</a>
-					<a href="https://github.com/neofodere/nsave">
+					<a href="https://github.com/neofodere/nsave" target="_blank">
 						<img src="https://raw.githubusercontent.com/neofodere/nsave/refs/heads/main/images/icono_nsave.png"
 							class="icono-software" draggable="false" oncontextmenu="return false"> nSAVE
 					</a>
