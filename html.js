@@ -116,15 +116,15 @@ document.addEventListener("DOMContentLoaded", () =>
 				<div class="lista-nav">
 					<a href="https://nstudios-games.fodsoft.com/">
 						<img src="https://resources.fodsoft.com/images/webp/icono_inicio.webp"
-							class="icono-software invertir-color" draggable="false" oncontextmenu="return false"> Inicio
+							class="icono-software" draggable="false" oncontextmenu="return false"> Inicio
 					</a>
 					<a href="https:/fodsoft.com/">
 						<img src="https://resources.fodsoft.com/images/webp/icono_soft.webp"
-							class="icono-software" draggable="false" oncontextmenu="return false"> Software
+							class="icono-software invertir-color" draggable="false" oncontextmenu="return false"> Software
 					</a>
 					<a href="https://neofodere.fodsoft.com/">
 						<img src="https://resources.fodsoft.com/images/webp/icono_acerca.webp"
-							class="icono-software invertir-color" draggable="false" oncontextmenu="return false"> About
+							class="icono-software" draggable="false" oncontextmenu="return false"> About
 					</a>
 				</div>
 			</div>
