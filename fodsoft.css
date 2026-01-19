@@ -84,12 +84,17 @@
 	user-select: none;
 }
 
+.lista-nav 
+{
+	left: auto;
+	right: 0;
+}
+
 .lista-software,
 .lista-nav
 {
 	position: absolute;
 	top: 40px;
-	left: 0;
 	background: #fff;
 	border-radius: 8px;
 	padding: 10px 0;
@@ -130,3 +135,4 @@
     }
 }
 /* FODSOFT(TM). Neo Fodere de Frutos. All rights reserved. */
+
