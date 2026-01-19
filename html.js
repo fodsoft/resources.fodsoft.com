@@ -1,14 +1,14 @@
 document.addEventListener("DOMContentLoaded", () => 
 {
 	const header = `
-		<div class="header">
-            <div class="logo-header">
+		<div class="header-fodsoft">
+            <div class="logo-header-fodsoft">
                 <img src="https://resources.fodsoft.com/images/webp/fodsoft_header.webp" class="fs-header-logo">
             </div>
-            <nav class="links-header">
-                <a href="https://fodsoft.com" class="link-header">Home</a>
-                <a href="https://nstudios-games.fodsoft.com" class="link-headerm">Games</a>
-                <a href="https://neofodere.fodsoft.com" class="link-header">About</a>
+            <nav class="links-header-fodsoft">
+                <a href="https://fodsoft.com" class="link-header-fodsoft">Home</a>
+                <a href="https://nstudios-games.fodsoft.com" class="link-header-fodsoft">Games</a>
+                <a href="https://neofodere.fodsoft.com" class="link-header-fodsoft">About</a>
                 <div id="selector-idiomas"></div>
             </nav>
         </div>
