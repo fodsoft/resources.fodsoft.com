@@ -37,9 +37,9 @@ document.addEventListener("DOMContentLoaded", async () =>
 		});
 	}
 
-	function esChromium() 
+	function esChromium()
 	{
-		return (/Chrome|Chromium|Edg|OPR|Brave/.test(navigator.userAgent));
+		return (!!window.chrome);
 	}
 
 	function fallbackPNG(img)
