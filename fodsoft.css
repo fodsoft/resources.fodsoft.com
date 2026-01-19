@@ -6,6 +6,12 @@
 	font-style: normal;
 } /* Montserrat, Designed by Julieta Ulanovsky, Sol Matas, Juan Pablo del Peral, Jacques Le Bailly */
 
+#header-fodsoft 
+{
+    display: block;
+    overflow: visible;
+}
+
 .header-fodsoft 
 {
 	background: #ececec;
@@ -47,11 +53,3 @@
     font-size: 1.1rem;
 }
 /* FODSOFT(TM). Neo Fodere de Frutos. All rights reserved. */
-
-
-
-
-
-
-
-
