@@ -13,6 +13,6 @@ document.addEventListener("DOMContentLoaded", () =>
             </nav>
         </div>
 	`;
-    document.getElementById("dynamic-header").innerHTML = header;
+    document.getElementById("header-fodsoft").innerHTML = header;
 });
 // FODSOFT(TM). Neo Fodere de Frutos. All rights reserved.
