@@ -148,13 +148,13 @@
 
 @media (max-width: 900px)
 {
-    .links-header
+	.links-header
 	{
 		display: none;
-    }
-    .menu-nav
+	}
+	.menu-nav
 	{
 		display: block;
-    }
+	}
 }
 /* FODSOFT(TM). Neo Fodere de Frutos. All rights reserved. */
