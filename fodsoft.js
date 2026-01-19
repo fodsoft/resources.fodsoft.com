@@ -10,14 +10,17 @@ document.addEventListener("DOMContentLoaded", () =>
 	`;
 });
 
-document.addEventListener("click", (e) => 
+document.addEventListener("click", (e) =>
 {
-    const menu = document.querySelector(".lista-software");
-    const icono = document.querySelector(".icono-lista");
-    if (icono.contains(e.target))
-        menu.style.display = menu.style.display === "flex" ? "none" : "flex";
+    const menuSoft = document.querySelector(".lista-software");
+    if (e.target.closest(".icono-lista-software"))
+        menuSoft.style.display = menuSoft.style.display === "flex" ? "none" : "flex";
     else
-        menu.style.display = "none";
+        menuSoft.style.display = "none";
+    const menuNav = document.querySelector(".lista-nav");
+    if (e.target.closest(".icono-lista-nav"))
+        menuNav.style.display = menuNav.style.display === "flex" ? "none" : "flex";
+    else
+        menuNav.style.display = "none";
 });
 // FODSOFT(TM). Neo Fodere de Frutos. All rights reserved.
-
