@@ -6,56 +6,62 @@
 	font-style: normal;
 } /* (OFL) Montserrat, Designed by Julieta Ulanovsky, Sol Matas, Juan Pablo del Peral, Jacques Le Bailly */
 
-.header-fodsoft
+.header-base 
+{
+	padding: 0 20px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
+	overflow: visible;
+}
+
+.header-fodsoft 
 {
 	background: #ececec;
-	padding: 0 20px;
-	height: 60px;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	position: relative;
-	overflow: visible;
 }
 
-.header-nsg
+.header-nsg 
 {
 	background: #4d4d4d;
-	padding: 0 20px;
-	height: 60px;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	position: relative;
-	overflow: visible;
 }
 
-.logo-header-fodsoft
+.header-logo
 {
 	display: flex;
 	align-items: center;
 }
 
-.logo-fodsoft-header
+.logo-header
 {
 	height: 70px;
 	transform: translateY(15px);
 	user-select: none;
 }
 
-.links-header-fodsoft
+.links-header
 {
 	display: flex;
 	align-items: center;
 	gap: 25px;
 }
 
-.link-header-fodsoft
+.link-header-base
 {
 	text-decoration: none;
 	font-weight: 600;
-	color: #000;
 	font-size: 1.1rem;
+}
+
+.link-header-fodsoft
+{
+	color: #000;
+}
+
+.link-header-nsg
+{
+	color: #FF;
 }
 
 .icono-header
@@ -65,6 +71,11 @@
 	margin-right: 5px;
 	user-select: none;
 	vertical-align: middle;
+}
+
+.invertir-color
+{
+	filter: invert(1);
 }
 
 .menu-software
@@ -147,6 +158,3 @@
     }
 }
 /* FODSOFT(TM). Neo Fodere de Frutos. All rights reserved. */
-
-
-
