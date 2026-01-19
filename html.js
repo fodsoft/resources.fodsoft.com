@@ -101,7 +101,7 @@ document.addEventListener("DOMContentLoaded", () =>
 				</a>
 				<a href="https://fodsoft.com" class="link-header-base link-header-nsg">
 					<img src="https://resources.fodsoft.com/images/webp/icono_soft.webp"
-						class="icono-header" draggable="false" oncontextmenu="return false"> Software
+						class="icono-header invertir-color" draggable="false" oncontextmenu="return false"> Software
 				</a>
 				<a href="https://neofodere.fodsoft.com" class="link-header-base link-header-nsg">
 					<img src="https://resources.fodsoft.com/images/webp/icono_acerca.webp"
@@ -120,7 +120,7 @@ document.addEventListener("DOMContentLoaded", () =>
 					</a>
 					<a href="https:/fodsoft.com/">
 						<img src="https://resources.fodsoft.com/images/webp/icono_soft.webp"
-							class="icono-software invertir-color" draggable="false" oncontextmenu="return false"> Software
+							class="icono-software" draggable="false" oncontextmenu="return false"> Software
 					</a>
 					<a href="https://neofodere.fodsoft.com/">
 						<img src="https://resources.fodsoft.com/images/webp/icono_acerca.webp"
