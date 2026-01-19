@@ -12,6 +12,22 @@ document.addEventListener("DOMContentLoaded", () =>
 						<img src="https://resources.fodsoft.com/images/webp/icono_vdream.webp"
 							class="icono-software" draggable="false" oncontextmenu="return false"> V.Dream
 					</a>
+					<a href="https://fodsoft.com/nwibuzz">
+						<img src="https://resources.fodsoft.com/images/webp/icono_nwibuzz.webp"
+							class="icono-software" draggable="false" oncontextmenu="return false"> Nwibuzz&trade;
+					</a>
+					<a href="https://fodsoft.com/denfo">
+						<img src="https://resources.fodsoft.com/images/webp/icono_denfo.webp"
+							class="icono-software" draggable="false" oncontextmenu="return false"> DENFO&trade;
+					</a>
+					<a href="https://fodsoft.com/fvax">
+						<img src="https://resources.fodsoft.com/images/webp/icono_fvax.webp"
+							class="icono-software" draggable="false" oncontextmenu="return false"> FVAX
+					</a>
+					<a href="https://github.com/neofodere/nsave">
+						<img src="https://raw.githubusercontent.com/neofodere/nsave/refs/heads/main/images/icono_nsave.png"
+							class="icono-software" draggable="false" oncontextmenu="return false"> nSAVE
+					</a>
 	            </div>
 			</div>
 	        <div class="logo-header-fodsoft">
