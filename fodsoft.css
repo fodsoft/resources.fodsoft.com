@@ -55,6 +55,9 @@
 	vertical-align: middle;
 }
 
+.menu-navegacion
+{ display: none; }
+
 .menu-software
 {
     position: relative;
@@ -106,5 +109,6 @@
 	background: #ececec;
 }
 /* FODSOFT(TM). Neo Fodere de Frutos. All rights reserved. */
+
 
 
