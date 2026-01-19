@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () =>
                 <a href="https://fodsoft.com" class="link-header">Home</a>
                 <a href="https://nstudios-games.fodsoft.com" class="link-headerm">Games</a>
                 <a href="https://neofodere.fodsoft.com" class="link-header">About</a>
-                <div id="language-selector"></div>
+                <div id="selector-idiomas"></div>
             </nav>
         </div>
 	`;
