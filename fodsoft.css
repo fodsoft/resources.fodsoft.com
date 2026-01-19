@@ -13,7 +13,7 @@
 .logo-header 
 {
 	height: 30px;
-	margin-left: -10px;
+	margin-left: -20px;
 	position: relative;
 	z-index: 2;
 }
@@ -40,4 +40,5 @@ body
     font-family: Arial, sans-serif;
 }
 /* FODSOFT(TM). Neo Fodere de Frutos. All rights reserved. */
+
 
