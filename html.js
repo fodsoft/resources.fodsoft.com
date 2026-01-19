@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", () =>
 
 	        <div class="logo-header-fodsoft">
 				<a href="https://nstudios-games.fodsoft.com/">
-		        	<img src="https://resources.fodsoft.com/images/webp/fodsoft_header.webp" class="logo-fodsoft-header"
+		        	<img src="https://resources.fodsoft.com/images/webp/nstudios_games_header.webp" class="logo-fodsoft-header"
 						draggable="false" oncontextmenu="return false;">
 				</a>
             </div>
