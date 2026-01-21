@@ -37,7 +37,7 @@
 {
 	height: 70px;
 	transform: translateY(15px);
-	image-rendering: crisp-edges;
+	image-rendering: -moz-crisp-edges;
 	user-select: none;
 }
 
