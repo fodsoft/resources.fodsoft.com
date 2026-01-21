@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () =>
 
 	        <div class="header-logo">
 				<a href="https://fodsoft.com/">
-		        	<img src="https://resources.fodsoft.com/images/webp/fodsoft_header.webp" class="logo-header quitar-suavizado-firefox"
+		        	<img src="https://resources.fodsoft.com/images/webp/fodsoft_header.webp" class="logo-header quitar-suavizado"
 						draggable="false" oncontextmenu="return false;">
 				</a>
             </div>
