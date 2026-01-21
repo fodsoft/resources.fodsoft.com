@@ -40,6 +40,11 @@
 	user-select: none;
 }
 
+.quitar-suavizado-firefox
+{
+	image-rendering: -moz-crisp-edges;
+}
+
 .links-header
 {
 	display: flex;
@@ -171,3 +176,4 @@
 	100% { transform: scale(1); } 
 }
 /* FODSOFT(TM). Neo Fodere de Frutos. All rights reserved. */
+
