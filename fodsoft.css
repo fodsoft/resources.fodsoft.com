@@ -68,9 +68,15 @@
 {
 	width: 26px;
 	height: 26px;
+	transition: transform 0.2s ease;
 	margin-right: 5px;
 	user-select: none;
 	vertical-align: middle;
+}
+
+.link-header-base:hover .icono-header
+{ 
+	animation: respirar 1.2s ease-in-out infinite; 
 }
 
 .invertir-color
@@ -157,6 +163,11 @@
 		display: block;
 	}
 }
+
+@keyframes respirar 
+{ 
+	0% { transform: scale(1); } 
+	50% { transform: scale(1.15); } 
+	100% { transform: scale(1); } 
+}
 /* FODSOFT(TM). Neo Fodere de Frutos. All rights reserved. */
-
-
