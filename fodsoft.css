@@ -40,7 +40,7 @@
 	user-select: none;
 }
 
-.quitar-suavizado-firefox
+.quitar-suavizado
 {
 	image-rendering: -moz-crisp-edges;
 }
@@ -172,8 +172,7 @@
 @keyframes respirar 
 { 
 	0% { transform: scale(1); } 
-	50% { transform: scale(1.15); } 
+	50% { transform: scale(1.25); } 
 	100% { transform: scale(1); } 
 }
 /* FODSOFT(TM). Neo Fodere de Frutos. All rights reserved. */
-
