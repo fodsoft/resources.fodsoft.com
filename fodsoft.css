@@ -37,7 +37,7 @@
 {
 	height: 70px;
 	transform: translateY(15px);
-	image-rendering: -moz-crisp-edges;
+	image-rendering: auto;
 	user-select: none;
 }
 
@@ -159,3 +159,4 @@
 	}
 }
 /* FODSOFT(TM). Neo Fodere de Frutos. All rights reserved. */
+
