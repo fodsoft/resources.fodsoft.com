@@ -134,6 +134,10 @@ document.addEventListener("DOMContentLoaded", () =>
         </div>
 	`;
 
+	const nsg_footer = `
+
+	`;
+
     const headerFodsoft = document.getElementById("header-fodsoft");
     if (headerFodsoft)
         headerFodsoft.innerHTML = fodsoft_header;
