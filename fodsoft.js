@@ -36,24 +36,21 @@ async function cambiarIdioma(idioma)
     const traducciones = await res.json();
     if (!traducciones[idioma])
         return;
-    document.querySelectorAll("[data-idioma]").forEach(el =>
-	{
-    	const clave = el.getAttribute("data-idioma");
-        const traduccion = traducciones[idioma][clave];
-        if (!traduccion)
+    document.querySelectorAll("[data-idioma]").forEach(texto =>
+    {
+        const clave = texto.getAttribute("data-idioma");
+        const nuevo = traducciones[idioma][clave];
+        if (!nuevo)
             return;
-        for (const node of el.childNodes)
-		{
+        texto.childNodes.forEach(node =>
+        {
             if (node.nodeType === Node.TEXT_NODE)
-			{
-                const texto = node.textContent.trim();
-                if (texto.length > 0)
-				{
-                    node.textContent = " " + traduccion;
-                    break;
-                }
+            {
+                const contenido = node.textContent.trim();
+                if (contenido.length > 0)
+                    node.textContent = " " + nuevo;
             }
-        }
+        });
     });
 }
 // FODSOFT(TM). Neo Fodere de Frutos. All rights reserved.
