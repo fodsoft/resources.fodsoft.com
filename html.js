@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", () =>
 	`;
 
 	const fodsoft_footer = `
-	    <footer class="footer-fodsoft">
+	    <footer class="footer-base footer-fodsoft">
 	        <div class="footer-contenido">
 	            <div class="footer-centro">
 	                <img src="https://resources.fodsoft.com/images/webp/logo_fodsoft_b1.webp"
