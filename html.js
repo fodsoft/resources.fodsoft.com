@@ -165,7 +165,7 @@ document.addEventListener("DOMContentLoaded", () =>
 	                </p>
 	                <div class="footer-enlaces">
 	                    <a href="mailto:contact@fodsoft.com" class="invertir-color">CONTACT</a>
-	                    <span class="footer-separador pintar-blanco">•</span>
+	                    <span class="footer-separador invertir-color">•</span>
 	                    <a href="https://resources.fodsoft.com/LEGAL.rtf" class="invertir-color">LEGAL</a>
 	                </div>
 	            </div>
