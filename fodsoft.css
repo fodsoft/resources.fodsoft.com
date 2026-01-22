@@ -197,7 +197,7 @@
 
 .footer-logo
 {
-	height: 60px;
+	height: 90px;
 	user-select: none;
 	margin-bottom: 10px;
 }
@@ -224,6 +224,11 @@
 }
 
 .footer-enlaces a:hover
+{
+	text-decoration: underline;
+}
+
+.footer-enlaces a.pintar-rojo:hover
 {
 	text-decoration: underline;
 	filter: brightness(0) saturate(100%) invert(12%) sepia(100%) saturate(5000%) hue-rotate(-5deg) brightness(100%) contrast(100%);
@@ -295,3 +300,4 @@
 	100% { transform: scale(1); } 
 }
 /* FODSOFT(TM). Neo Fodere de Frutos. All rights reserved. */
+
