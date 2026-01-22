@@ -37,17 +37,17 @@ document.addEventListener("DOMContentLoaded", () =>
             </div>
 
             <nav class="links-header">
-                <a href="https://fodsoft.com" class="link-header-base link-header-fodsoft">
+                <a href="https://fodsoft.com" class="link-header-base link-header-fodsoft" data-idioma="inicio">
 					<img src="https://resources.fodsoft.com/images/webp/icono_inicio.webp"
-						class="icono-header" draggable="false" oncontextmenu="return false" data-idioma="inicio"> Home
+						class="icono-header" draggable="false" oncontextmenu="return false"> Home
 				</a>
-				<a href="https://nstudios-games.fodsoft.com" class="link-header-base link-header-fodsoft">
+				<a href="https://nstudios-games.fodsoft.com" class="link-header-base link-header-fodsoft" data-idioma="juegos">
 					<img src="https://resources.fodsoft.com/images/webp/icono_juegos.webp"
-						class="icono-header" draggable="false" oncontextmenu="return false" data-idioma="juegos"> Games
+						class="icono-header" draggable="false" oncontextmenu="return false"> Games
 				</a>
-				<a href="https://neofodere.fodsoft.com" class="link-header-base link-header-fodsoft">
+				<a href="https://neofodere.fodsoft.com" class="link-header-base link-header-fodsoft" data-idioma="acerca">
 					<img src="https://resources.fodsoft.com/images/webp/icono_acerca.webp"
-						class="icono-header" draggable="false" oncontextmenu="return false" data-idioma="acerca"> About
+						class="icono-header" draggable="false" oncontextmenu="return false"> About
 				</a>
                 <div id="selector-idiomas"></div>
             </nav>
@@ -56,17 +56,17 @@ document.addEventListener("DOMContentLoaded", () =>
 				<img src="https://resources.fodsoft.com/images/webp/icono_menu.webp"
          			class="icono-lista-nav" draggable="false" oncontextmenu="return false">
 				<div class="lista-nav">
-					<a href="https://fodsoft.com/">
+					<a href="https://fodsoft.com/" data-idioma="inicio">
 						<img src="https://resources.fodsoft.com/images/webp/icono_inicio.webp"
-							class="icono-software" draggable="false" oncontextmenu="return false" data-idioma="inicio"> Inicio
+							class="icono-software" draggable="false" oncontextmenu="return false"> Inicio
 					</a>
-					<a href="https://nstudios-games.fodsoft.com/">
+					<a href="https://nstudios-games.fodsoft.com/" data-idioma="juegos">
 						<img src="https://resources.fodsoft.com/images/webp/icono_juegos.webp"
-							class="icono-software" draggable="false" oncontextmenu="return false" data-idioma="juegos"> Games
+							class="icono-software" draggable="false" oncontextmenu="return false"> Games
 					</a>
-					<a href="https://neofodere.fodsoft.com/">
+					<a href="https://neofodere.fodsoft.com/" data-idioma="acerca">
 						<img src="https://resources.fodsoft.com/images/webp/icono_acerca.webp"
-							class="icono-software" draggable="false" oncontextmenu="return false" data-idioma="acerca"> About
+							class="icono-software" draggable="false" oncontextmenu="return false"> About
 					</a>
 				</div>
 			</div>
@@ -98,17 +98,17 @@ document.addEventListener("DOMContentLoaded", () =>
             </div>
 
             <nav class="links-header">
-                <a href="https://nstudios-games.fodsoft.com" class="link-header-base link-header-nsg">
+                <a href="https://nstudios-games.fodsoft.com" class="link-header-base link-header-nsg" data-idioma="inicio">
 					<img src="https://resources.fodsoft.com/images/webp/icono_inicio.webp"
-						class="icono-header invertir-color" draggable="false" oncontextmenu="return false" data-idioma="inicio"> Home
+						class="icono-header invertir-color" draggable="false" oncontextmenu="return false"> Home
 				</a>
-				<a href="https://fodsoft.com" class="link-header-base link-header-nsg">
+				<a href="https://fodsoft.com" class="link-header-base link-header-nsg" data-idioma="software">
 					<img src="https://resources.fodsoft.com/images/webp/icono_soft.webp"
-						class="icono-header invertir-color" draggable="false" oncontextmenu="return false" data-idioma="software"> Software
+						class="icono-header invertir-color" draggable="false" oncontextmenu="return false"> Software
 				</a>
-				<a href="https://neofodere.fodsoft.com" class="link-header-base link-header-nsg">
+				<a href="https://neofodere.fodsoft.com" class="link-header-base link-header-nsg" data-idioma="acerca">
 					<img src="https://resources.fodsoft.com/images/webp/icono_acerca.webp"
-						class="icono-header invertir-color" draggable="false" oncontextmenu="return false" data-idioma="acerca"> About
+						class="icono-header invertir-color" draggable="false" oncontextmenu="return false"> About
 				</a>
                 <div id="selector-idiomas"></div>
             </nav>
@@ -117,17 +117,17 @@ document.addEventListener("DOMContentLoaded", () =>
 				<img src="https://resources.fodsoft.com/images/webp/icono_menu.webp"
          			class="icono-lista-nav invertir-color" draggable="false" oncontextmenu="return false">
 				<div class="lista-nav">
-					<a href="https://nstudios-games.fodsoft.com/">
+					<a href="https://nstudios-games.fodsoft.com/" data-idioma="inicio">
 						<img src="https://resources.fodsoft.com/images/webp/icono_inicio.webp"
-							class="icono-software" draggable="false" oncontextmenu="return false" data-idioma="inicio"> Inicio
+							class="icono-software" draggable="false" oncontextmenu="return false"> Inicio
 					</a>
-					<a href="https://fodsoft.com/">
+					<a href="https://fodsoft.com/" data-idioma="software">
 						<img src="https://resources.fodsoft.com/images/webp/icono_soft.webp"
-							class="icono-software" draggable="false" oncontextmenu="return false" data-idioma="software"> Software
+							class="icono-software" draggable="false" oncontextmenu="return false"> Software
 					</a>
-					<a href="https://neofodere.fodsoft.com/">
+					<a href="https://neofodere.fodsoft.com/" data-idioma="acerca">
 						<img src="https://resources.fodsoft.com/images/webp/icono_acerca.webp"
-							class="icono-software" draggable="false" oncontextmenu="return false" data-idioma="acerca"> About
+							class="icono-software" draggable="false" oncontextmenu="return false"> About
 					</a>
 				</div>
 			</div>
