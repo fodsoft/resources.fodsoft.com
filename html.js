@@ -82,9 +82,9 @@ document.addEventListener("DOMContentLoaded", () =>
 	                    © 2026 FODSOFT™. Néo Foderé de Frutos. All rights reserved.
 	                </p>
 	                <div class="footer-enlaces">
-	                    <a href="mailto:contact@fodsoft.com">CONTACT</a>
+	                    <a href="mailto:contact@fodsoft.com" class="pintar-rojo">CONTACT</a>
 	                    <span class="footer-separador">•</span>
-	                    <a href="https://resources.fodsoft.com/LEGAL.rtf">LEGAL</a>
+	                    <a href="https://resources.fodsoft.com/LEGAL.rtf" class="pintar-rojo">LEGAL</a>
 	                </div>
 	            </div>
 	            <div class="footer-derecha">
@@ -161,7 +161,7 @@ document.addEventListener("DOMContentLoaded", () =>
 	                <img src="https://resources.fodsoft.com/images/webp/logo_nstudios_games_c1.webp"
 	                     class="footer-logo" draggable="false" oncontextmenu="return false">
 	                <p class="footer-texto">
-	                    © 2026 FODSOFT™. Néo Foderé de Frutos. All rights reserved.
+	                    © 2026 FODSOFT™, NSTUDIOS GAMES™. Néo Foderé de Frutos. All rights reserved.
 	                </p>
 	                <div class="footer-enlaces">
 	                    <a href="mailto:contact@fodsoft.com">CONTACT</a>
@@ -173,7 +173,7 @@ document.addEventListener("DOMContentLoaded", () =>
 	                <span class="footer-visit">Visit more</span>
 	                <a href="https://nsg-fodsoft.itch.io" target="_blank">
 	                    <img src="https://resources.fodsoft.com/images/webp/icono_itch.webp"
-	                         class="footer-enlace invertir-color pintar-rojo" draggable="false" oncontextmenu="return false">
+	                         class="footer-enlace" draggable="false" oncontextmenu="return false">
 	                </a>
 	            </div>
 	        </div>
