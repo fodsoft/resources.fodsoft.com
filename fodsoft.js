@@ -1,8 +1,3 @@
-if (fodsoft_header)
-	document.body.insertAdjacentHTML("afterbegin", fodsoft_header);
-else if (nsg_header)
-	document.body.insertAdjacentHTML("afterbegin", nsg_header);
-
 document.addEventListener("click", (e) =>
 {
     const menuSoft = document.querySelector(".lista-software");
@@ -29,3 +24,4 @@ document.addEventListener("DOMContentLoaded", () =>
 	`;
 });
 // FODSOFT(TM). Neo Fodere de Frutos. All rights reserved.
+
