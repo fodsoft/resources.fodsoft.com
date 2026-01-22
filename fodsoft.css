@@ -272,6 +272,11 @@
 	filter: brightness(0) saturate(100%) invert(12%) sepia(100%) saturate(5000%) hue-rotate(-5deg) brightness(100%) contrast(100%);
 }
 
+.pintar-blanco
+{
+	filter: brightness(0) invert(1);
+}
+
 @media (max-width: 700px)
 {
 	.footer-contenido
