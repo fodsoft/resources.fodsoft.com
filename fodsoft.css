@@ -87,7 +87,7 @@
 .link-header-base:hover .icono-header.pintar-rojo
 { 
 	animation: respirar 1.2s ease-in-out infinite;
-	filter: invert(18%) sepia(93%) saturate(7480%) hue-rotate(1deg) brightness(95%) contrast(120%);
+	filter: brightness(0) saturate(100%) invert(12%) sepia(100%) saturate(5000%) hue-rotate(-5deg) brightness(100%) contrast(100%);
 }
 
 .invertir-color
@@ -226,6 +226,7 @@
 .footer-enlaces a:hover
 {
 	text-decoration: underline;
+	filter: brightness(0) saturate(100%) invert(12%) sepia(100%) saturate(5000%) hue-rotate(-5deg) brightness(100%) contrast(100%);
 }
 
 .footer-separador
@@ -263,7 +264,7 @@
 { 
 	animation: respirar 1.2s ease-in-out infinite;
 	filter: none;
-	filter: invert(18%) sepia(93%) saturate(7480%) hue-rotate(1deg) brightness(95%) contrast(120%);
+	filter: brightness(0) saturate(100%) invert(12%) sepia(100%) saturate(5000%) hue-rotate(-5deg) brightness(100%) contrast(100%);
 }
 
 @media (max-width: 700px)
