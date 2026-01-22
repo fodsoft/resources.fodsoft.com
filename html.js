@@ -180,7 +180,7 @@ document.addEventListener("DOMContentLoaded", () =>
 	    </footer>
 	`;
 
-    const headerFodsoft = document.getElementById("header-fodsoft");
+	const headerFodsoft = document.getElementById("header-fodsoft");
 	const footerFodsoft = document.getElementById("footer-fodsoft");
     if (headerFodsoft && footerFodsoft)
 	{
@@ -188,8 +188,9 @@ document.addEventListener("DOMContentLoaded", () =>
 		footerFodsoft.innerHTML = fodsoft_footer;
 	}
 
-    const headerNSG = document.getElementById("header-nsg");
-    if (headerNSG && footerNSG)
+	const headerNSG = document.getElementById("header-nsg");
+	const footerNSG = document.getElementById("footer-nsg");
+	if (headerNSG && footerNSG)
 	{
         headerNSG.innerHTML = nsg_header;
 		footerNSG.innerHTML = nsg_footer;
