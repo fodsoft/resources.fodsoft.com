@@ -244,6 +244,17 @@
 	user-select: none;
 }
 
+.footer-enlace:hover
+{ 
+	animation: respirar 1.2s ease-in-out infinite; 
+}
+
+.footer-enlace:hover .pintar-rojo
+{ 
+	animation: respirar 1.2s ease-in-out infinite;
+	filter: invert(18%) sepia(93%) saturate(7480%) hue-rotate(1deg) brightness(95%) contrast(120%);
+}
+
 @media (max-width: 700px)
 {
 	.footer-contenido
@@ -272,4 +283,5 @@
 	100% { transform: scale(1); } 
 }
 /* FODSOFT(TM). Neo Fodere de Frutos. All rights reserved. */
+
 
