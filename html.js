@@ -39,15 +39,15 @@ document.addEventListener("DOMContentLoaded", () =>
             <nav class="links-header">
                 <a href="https://fodsoft.com" class="link-header-base link-header-fodsoft" data-idioma="inicio">
 					<img src="https://resources.fodsoft.com/images/webp/icono_inicio.webp"
-						class="icono-header" draggable="false" oncontextmenu="return false"> Home
+						class="icono-header pintar-rojo" draggable="false" oncontextmenu="return false"> Home
 				</a>
 				<a href="https://nstudios-games.fodsoft.com" class="link-header-base link-header-fodsoft" data-idioma="juegos">
 					<img src="https://resources.fodsoft.com/images/webp/icono_juegos.webp"
-						class="icono-header" draggable="false" oncontextmenu="return false"> Games
+						class="icono-header pintar-rojo" draggable="false" oncontextmenu="return false"> Games
 				</a>
 				<a href="https://neofodere.fodsoft.com" class="link-header-base link-header-fodsoft" data-idioma="acerca">
 					<img src="https://resources.fodsoft.com/images/webp/icono_acerca.webp"
-						class="icono-header" draggable="false" oncontextmenu="return false"> About
+						class="icono-header pintar-rojo" draggable="false" oncontextmenu="return false"> About
 				</a>
             </nav>
 
