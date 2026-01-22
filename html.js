@@ -39,15 +39,15 @@ document.addEventListener("DOMContentLoaded", () =>
             <nav class="links-header">
                 <a href="https://fodsoft.com" class="link-header-base link-header-fodsoft">
 					<img src="https://resources.fodsoft.com/images/webp/icono_inicio.webp"
-						class="icono-header" draggable="false" oncontextmenu="return false"> Home
+						class="icono-header" draggable="false" oncontextmenu="return false" data-idioma="inicio"> Home
 				</a>
 				<a href="https://nstudios-games.fodsoft.com" class="link-header-base link-header-fodsoft">
 					<img src="https://resources.fodsoft.com/images/webp/icono_juegos.webp"
-						class="icono-header" draggable="false" oncontextmenu="return false"> Games
+						class="icono-header" draggable="false" oncontextmenu="return false" data-idioma="juegos"> Games
 				</a>
 				<a href="https://neofodere.fodsoft.com" class="link-header-base link-header-fodsoft">
 					<img src="https://resources.fodsoft.com/images/webp/icono_acerca.webp"
-						class="icono-header" draggable="false" oncontextmenu="return false"> About
+						class="icono-header" draggable="false" oncontextmenu="return false" data-idioma="acerca"> About
 				</a>
                 <div id="selector-idiomas"></div>
             </nav>
@@ -58,21 +58,24 @@ document.addEventListener("DOMContentLoaded", () =>
 				<div class="lista-nav">
 					<a href="https://fodsoft.com/">
 						<img src="https://resources.fodsoft.com/images/webp/icono_inicio.webp"
-							class="icono-software" draggable="false" oncontextmenu="return false"> Inicio
+							class="icono-software" draggable="false" oncontextmenu="return false" data-idioma="inicio"> Inicio
 					</a>
 					<a href="https://nstudios-games.fodsoft.com/">
 						<img src="https://resources.fodsoft.com/images/webp/icono_juegos.webp"
-							class="icono-software" draggable="false" oncontextmenu="return false"> Games
+							class="icono-software" draggable="false" oncontextmenu="return false" data-idioma="juegos"> Games
 					</a>
 					<a href="https://neofodere.fodsoft.com/">
 						<img src="https://resources.fodsoft.com/images/webp/icono_acerca.webp"
-							class="icono-software" draggable="false" oncontextmenu="return false"> About
+							class="icono-software" draggable="false" oncontextmenu="return false" data-idioma="acerca"> About
 					</a>
 				</div>
 			</div>
         </div>
 	`;
 
+	const fodsoft_footer = `
+
+	`;
 
 	const nsg_header = `
 		<div class="header-base header-nsg">
@@ -97,15 +100,15 @@ document.addEventListener("DOMContentLoaded", () =>
             <nav class="links-header">
                 <a href="https://nstudios-games.fodsoft.com" class="link-header-base link-header-nsg">
 					<img src="https://resources.fodsoft.com/images/webp/icono_inicio.webp"
-						class="icono-header invertir-color" draggable="false" oncontextmenu="return false"> Home
+						class="icono-header invertir-color" draggable="false" oncontextmenu="return false" data-idioma="inicio"> Home
 				</a>
 				<a href="https://fodsoft.com" class="link-header-base link-header-nsg">
 					<img src="https://resources.fodsoft.com/images/webp/icono_soft.webp"
-						class="icono-header invertir-color" draggable="false" oncontextmenu="return false"> Software
+						class="icono-header invertir-color" draggable="false" oncontextmenu="return false" data-idioma="software"> Software
 				</a>
 				<a href="https://neofodere.fodsoft.com" class="link-header-base link-header-nsg">
 					<img src="https://resources.fodsoft.com/images/webp/icono_acerca.webp"
-						class="icono-header invertir-color" draggable="false" oncontextmenu="return false"> About
+						class="icono-header invertir-color" draggable="false" oncontextmenu="return false" data-idioma="acerca"> About
 				</a>
                 <div id="selector-idiomas"></div>
             </nav>
@@ -116,15 +119,15 @@ document.addEventListener("DOMContentLoaded", () =>
 				<div class="lista-nav">
 					<a href="https://nstudios-games.fodsoft.com/">
 						<img src="https://resources.fodsoft.com/images/webp/icono_inicio.webp"
-							class="icono-software" draggable="false" oncontextmenu="return false"> Inicio
+							class="icono-software" draggable="false" oncontextmenu="return false" data-idioma="inicio"> Inicio
 					</a>
 					<a href="https://fodsoft.com/">
 						<img src="https://resources.fodsoft.com/images/webp/icono_soft.webp"
-							class="icono-software" draggable="false" oncontextmenu="return false"> Software
+							class="icono-software" draggable="false" oncontextmenu="return false" data-idioma="software"> Software
 					</a>
 					<a href="https://neofodere.fodsoft.com/">
 						<img src="https://resources.fodsoft.com/images/webp/icono_acerca.webp"
-							class="icono-software" draggable="false" oncontextmenu="return false"> About
+							class="icono-software" draggable="false" oncontextmenu="return false" data-idioma="acerca"> About
 					</a>
 				</div>
 			</div>
