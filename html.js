@@ -49,7 +49,6 @@ document.addEventListener("DOMContentLoaded", () =>
 					<img src="https://resources.fodsoft.com/images/webp/icono_acerca.webp"
 						class="icono-header" draggable="false" oncontextmenu="return false"> About
 				</a>
-                <div id="selector-idiomas"></div>
             </nav>
 
 			<div class="menu-nav">
@@ -110,7 +109,6 @@ document.addEventListener("DOMContentLoaded", () =>
 					<img src="https://resources.fodsoft.com/images/webp/icono_acerca.webp"
 						class="icono-header invertir-color" draggable="false" oncontextmenu="return false"> About
 				</a>
-                <div id="selector-idiomas"></div>
             </nav>
 
 			<div class="menu-nav">
