@@ -11,46 +11,4 @@ document.addEventListener("click", (e) =>
     else
         menuNav.style.display = "none";
 });
-
-document.addEventListener("DOMContentLoaded", () => 
-{
-	const selectorIdiomas = document.getElementById("selector-idiomas");
-	selectorIdiomas.innerHTML = `
-		<select id="lista-idiomas">
-			<option value="en">EN</option>
-			<option value="es">ES</option>
-			<option value="fr">FR</option>
-		</select>
-    `;
-	document.getElementById("lista-idiomas").addEventListener("change", (e) => 
-	{
-		cambiarIdioma(e.target.value);
-    });
-});
-
-async function cambiarIdioma(idioma)
-{
-    if (idioma === "en")
-        return;
-    const res = await fetch("https://resources.fodsoft.com/traducciones.json");
-    const traducciones = await res.json();
-    if (!traducciones[idioma])
-        return;
-    document.querySelectorAll("[data-idioma]").forEach(texto =>
-    {
-        const clave = texto.getAttribute("data-idioma");
-        const nuevo = traducciones[idioma][clave];
-        if (!nuevo)
-            return;
-        texto.childNodes.forEach(node =>
-        {
-            if (node.nodeType === Node.TEXT_NODE)
-            {
-                const contenido = node.textContent.trim();
-                if (contenido.length > 0)
-                    node.textContent = " " + nuevo;
-            }
-        });
-    });
-}
 // FODSOFT(TM). Neo Fodere de Frutos. All rights reserved.
