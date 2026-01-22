@@ -159,8 +159,12 @@ document.addEventListener("DOMContentLoaded", () =>
 	`;
 
     const headerFodsoft = document.getElementById("header-fodsoft");
-    if (headerFodsoft)
+	const footerFodsoft = document.getElementById("footer-fodsoft");
+    if (headerFodsoft && footerFodsoft)
+	{
         headerFodsoft.innerHTML = fodsoft_header;
+
+	}
 
     const headerNSG = document.getElementById("header-nsg");
     if (headerNSG)
