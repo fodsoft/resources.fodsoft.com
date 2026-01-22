@@ -155,7 +155,29 @@ document.addEventListener("DOMContentLoaded", () =>
 	`;
 
 	const nsg_footer = `
-
+		<footer class="footer-base footer-nsg">
+	        <div class="footer-contenido">
+	            <div class="footer-centro">
+	                <img src="https://resources.fodsoft.com/images/webp/logo_nstudios_games_c1.webp"
+	                     class="footer-logo" draggable="false" oncontextmenu="return false">
+	                <p class="footer-texto">
+	                    © 2026 FODSOFT™. Néo Foderé de Frutos. All rights reserved.
+	                </p>
+	                <div class="footer-enlaces">
+	                    <a href="mailto:contact@fodsoft.com">CONTACT</a>
+	                    <span class="footer-separador">•</span>
+	                    <a href="https://resources.fodsoft.com/LEGAL.rtf">LEGAL</a>
+	                </div>
+	            </div>
+	            <div class="footer-derecha">
+	                <span class="footer-visit">Visit more</span>
+	                <a href="https://nsg-fodsoft.itch.io" target="_blank">
+	                    <img src="https://resources.fodsoft.com/images/webp/icono_itch.webp"
+	                         class="footer-enlace invertir-color pintar-rojo" draggable="false" oncontextmenu="return false">
+	                </a>
+	            </div>
+	        </div>
+	    </footer>
 	`;
 
     const headerFodsoft = document.getElementById("header-fodsoft");
@@ -167,7 +189,10 @@ document.addEventListener("DOMContentLoaded", () =>
 	}
 
     const headerNSG = document.getElementById("header-nsg");
-    if (headerNSG)
+    if (headerNSG && footerNSG)
+	{
         headerNSG.innerHTML = nsg_header;
+		footerNSG.innerHTML = nsg_footer;
+	}
 });
 // FODSOFT(TM). Neo Fodere de Frutos. All rights reserved.
