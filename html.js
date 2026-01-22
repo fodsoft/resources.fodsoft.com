@@ -91,7 +91,7 @@ document.addEventListener("DOMContentLoaded", () =>
 	                <span class="footer-visit">Visit more</span>
 	                <a href="https://fodsoft.itch.io" target="_blank">
 	                    <img src="https://resources.fodsoft.com/images/webp/icono_itch.webp"
-	                         class="footer-enlace invertir-color" draggable="false" oncontextmenu="return false">
+	                         class="footer-enlace invertir-color pintar-rojo" draggable="false" oncontextmenu="return false">
 	                </a>
 	            </div>
 	        </div>
