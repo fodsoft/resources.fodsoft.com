@@ -73,7 +73,29 @@ document.addEventListener("DOMContentLoaded", () =>
 	`;
 
 	const fodsoft_footer = `
-
+	    <footer class="footer-fodsoft">
+	        <div class="footer-contenido">
+	            <div class="footer-centro">
+	                <img src="https://resources.fodsoft.com/images/webp/logo_fodsoft_b1.webp"
+	                     class="footer-logo" draggable="false" oncontextmenu="return false">
+	                <p class="footer-texto">
+	                    © 2026 FODSOFT™. Néo Foderé de Frutos. All rights reserved.
+	                </p>
+	                <div class="footer-enlaces">
+	                    <a href="mailto:contact@fodsoft.com">CONTACT</a>
+	                    <span class="footer-separador">•</span>
+	                    <a href="https://resources.fodsoft.com/LEGAL.rtf">LEGAL</a>
+	                </div>
+	            </div>
+	            <div class="footer-derecha">
+	                <span class="footer-visit">Visit more</span>
+	                <a href="https://fodsoft.itch.io" target="_blank">
+	                    <img src="https://resources.fodsoft.com/images/webp/icono_itch.webp"
+	                         class="footer-enlace" draggable="false" oncontextmenu="return false">
+	                </a>
+	            </div>
+	        </div>
+	    </footer>
 	`;
 
 	const nsg_header = `
