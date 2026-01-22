@@ -163,7 +163,7 @@ document.addEventListener("DOMContentLoaded", () =>
     if (headerFodsoft && footerFodsoft)
 	{
         headerFodsoft.innerHTML = fodsoft_header;
-
+		footerFodsoft.innerHTML = fodsoft_footer;
 	}
 
     const headerNSG = document.getElementById("header-nsg");
