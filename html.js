@@ -158,19 +158,19 @@ document.addEventListener("DOMContentLoaded", () =>
 		<footer class="footer-base footer-nsg">
 	        <div class="footer-contenido">
 	            <div class="footer-centro">
-	                <img src="https://resources.fodsoft.com/images/webp/logo_nstudios_games_c1.webp"
+	                <img src="https://resources.fodsoft.com/images/webp/logo_nstudios_games_c.webp"
 	                     class="footer-logo" draggable="false" oncontextmenu="return false">
-	                <p class="footer-texto">
+	                <p class="footer-texto invertir-color">
 	                    © 2026 FODSOFT™, NSTUDIOS GAMES™. Néo Foderé de Frutos. All rights reserved.
 	                </p>
 	                <div class="footer-enlaces">
-	                    <a href="mailto:contact@fodsoft.com">CONTACT</a>
+	                    <a href="mailto:contact@fodsoft.com" class="invertir-color">CONTACT</a>
 	                    <span class="footer-separador">•</span>
-	                    <a href="https://resources.fodsoft.com/LEGAL.rtf">LEGAL</a>
+	                    <a href="https://resources.fodsoft.com/LEGAL.rtf" class="invertir-color">LEGAL</a>
 	                </div>
 	            </div>
 	            <div class="footer-derecha">
-	                <span class="footer-visit">Visit more</span>
+	                <span class="footer-visit invertir-color">Visit more</span>
 	                <a href="https://nsg-fodsoft.itch.io" target="_blank">
 	                    <img src="https://resources.fodsoft.com/images/webp/icono_itch.webp"
 	                         class="footer-enlace" draggable="false" oncontextmenu="return false">
