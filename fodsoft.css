@@ -163,11 +163,21 @@
 	background: #ececec;
 }
 
-.footer-fodsoft
+.footer-base
 {
 	background: #ececec;
 	padding: 40px 20px;
 	margin-top: 60px;
+}
+
+.footer-fodsoft
+{
+	background: #ececec;
+}
+
+.footer-nsg
+{
+	background: #4d4d4d;
 }
 
 .footer-contenido
