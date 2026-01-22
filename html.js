@@ -159,7 +159,7 @@ document.addEventListener("DOMContentLoaded", () =>
 	        <div class="footer-contenido">
 	            <div class="footer-centro">
 	                <img src="https://resources.fodsoft.com/images/webp/logo_nstudios_games_c.webp"
-	                     class="footer-logo" draggable="false" oncontextmenu="return false">
+	                     class="footer-logo pintar-blanco" draggable="false" oncontextmenu="return false">
 	                <p class="footer-texto invertir-color">
 	                    © 2026 FODSOFT™, NSTUDIOS GAMES™. Néo Foderé de Frutos. All rights reserved.
 	                </p>
