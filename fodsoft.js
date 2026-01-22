@@ -27,6 +27,7 @@ document.addEventListener("DOMContentLoaded", () =>
 		cambiarIdioma(e.target.value);
     });
 });
+
 async function cambiarIdioma(idioma)
 {
     if (idioma === "en")
