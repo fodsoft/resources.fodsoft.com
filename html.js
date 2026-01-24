@@ -99,7 +99,7 @@ document.addEventListener("DOMContentLoaded", () =>
 	                </a>
 					<a href="https://linkedin.com/company/fodsoft" target="_blank">
 	                    <img src="https://resources.fodsoft.com/images/web/icono_linkedin.webp"
-	                         class="footer-enlace invertir-color pintar-rojo" draggable="false" oncontextmenu="return false">
+	                         class="footer-enlace invertir-color pintar-rojo redondear-bordes" draggable="false" oncontextmenu="return false">
 	                </a>
 					<a href="https://youtube.com/@fodsoft" target="_blank">
 	                    <img src="https://resources.fodsoft.com/images/web/icono_youtube.webp"
@@ -195,7 +195,7 @@ document.addEventListener("DOMContentLoaded", () =>
 	                </a>
 					<a href="https://www.linkedin.com/company/nstudios-games/" target="_blank">
 	                    <img src="https://resources.fodsoft.com/images/web/icono_linkedin.webp"
-	                         class="footer-enlace" draggable="false" oncontextmenu="return false">
+	                         class="footer-enlace redondear-bordes" draggable="false" oncontextmenu="return false">
 	                </a>
 					<a href="https://youtube.com/@nstudios-games" target="_blank">
 	                    <img src="https://resources.fodsoft.com/images/web/icono_youtube.webp"
