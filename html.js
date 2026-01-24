@@ -75,6 +75,10 @@ document.addEventListener("DOMContentLoaded", () =>
 	const fodsoft_footer = `
 	    <footer class="footer-base footer-fodsoft">
 	        <div class="footer-contenido">
+				<div class="footer-izquierda">
+					<img src="https://resources.fodsoft.com/images/wev/icono_fodsoft_footer"
+						class="icono-footer" draggable="false" oncontextmenu="return false">
+				</div>
 	            <div class="footer-centro">
 	                <img src="https://resources.fodsoft.com/images/web/logo_fodsoft_b.webp"
 	                     class="footer-logo" draggable="false" oncontextmenu="return false">
