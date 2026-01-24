@@ -54,21 +54,6 @@
 	            color: red;
 	        }
 	    </style>
-
-		<script>
-	        let tiempo = 10;
-	        const countdown = document.getElementById("contador");
-	        const intervalo = setInterval(() =>
-			{
-				tiempo--;
-				countdown.textContent = tiempo;
-				if (tiempo <= 0)
-				{
-					clearInterval(intervalo);
-					window.location.href = "https://fodsoft.com";
-				}
-			}, 1000);
-		</script>
 	</head>
 	
 	<body>
@@ -82,5 +67,19 @@
 	    </main>
 		<div id="footer-fodsoft"></div>
 	</body>
+	<script>
+	        let tiempo = 10;
+	        const countdown = document.getElementById("contador");
+	        const intervalo = setInterval(() =>
+			{
+				tiempo--;
+				countdown.textContent = tiempo;
+				if (tiempo <= 0)
+				{
+					clearInterval(intervalo);
+					window.location.href = "https://fodsoft.com";
+				}
+			}, 1000);
+		</script>
 </html>
-<!-- FODSOFT(TM), NSTUDIOS GAMES(TM). Neo Fodere de Frutos. All rights reserved -->
+<!-- FODSOFT(TM). Neo Fodere de Frutos. All rights reserved -->
