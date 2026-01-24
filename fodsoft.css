@@ -283,15 +283,6 @@
 	filter: brightness(0) invert(1);
 }
 
-@media (max-width: 700px)
-{
-	.footer-contenido
-	{
-		flex-direction: column;
-		gap: 25px;
-	}
-}
-
 @media (max-width: 900px)
 {
 	.links-header
@@ -301,6 +292,11 @@
 	.menu-nav
 	{
 		display: block;
+	}
+	.footer-contenido
+	{
+		flex-direction: column;
+		gap: 25px;
 	}
 }
 
