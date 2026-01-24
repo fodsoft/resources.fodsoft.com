@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", () =>
 	                <div class="footer-enlaces">
 	                    <a href="mailto:contact@fodsoft.com" class="pintar-rojo">CONTACT</a>
 	                    <span class="footer-separador">•</span>
-	                    <a href="https://resources.fodsoft.com/LEGAL.html" class="pintar-rojo">LEGAL</a>
+	                    <a href="https://resources.fodsoft.com/LEGAL.html" target="_blank" class="pintar-rojo">LEGAL</a>
 	                </div>
 	            </div>
 	            <div class="footer-derecha">
@@ -176,7 +176,7 @@ document.addEventListener("DOMContentLoaded", () =>
 	                <div class="footer-enlaces">
 	                    <a href="mailto:contact@fodsoft.com" class="invertir-color">CONTACT</a>
 	                    <span class="footer-separador invertir-color">•</span>
-	                    <a href="https://resources.fodsoft.com/LEGAL.html" class="invertir-color">LEGAL</a>
+	                    <a href="https://resources.fodsoft.com/LEGAL.html" target="_blank" class="invertir-color">LEGAL</a>
 	                </div>
 	            </div>
 	            <div class="footer-derecha">
