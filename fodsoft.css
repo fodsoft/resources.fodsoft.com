@@ -273,6 +273,11 @@
 	filter: brightness(0) saturate(100%) invert(12%) sepia(100%) saturate(5000%) hue-rotate(-5deg) brightness(100%) contrast(100%);
 }
 
+.redondear-bordes
+{
+	border-radius: 10px;
+}
+
 .pintar-blanco
 {
 	filter: brightness(0) invert(1);
@@ -306,5 +311,6 @@
 	100% { transform: scale(1); } 
 }
 /* FODSOFT(TM). Neo Fodere de Frutos. All rights reserved. */
+
 
 
