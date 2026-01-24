@@ -190,6 +190,21 @@
 	align-items: center;
 }
 
+.footer-izquierda 
+{ 
+	display: flex; 
+	align-items: center; 
+	justify-content: flex-start;
+}
+
+.icono-footer 
+{ 
+	height: 100%; 
+	width: auto;
+	object-fit: contain;
+	user-select: none; 
+}
+
 .footer-centro
 {
 	text-align: center;
@@ -284,6 +299,10 @@
 	{
 		flex-direction: column;
 		gap: 25px;
+	}
+	.icono-footer 
+	{ 
+		display: none; 
 	}
 }
 
