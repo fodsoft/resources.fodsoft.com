@@ -93,6 +93,10 @@ document.addEventListener("DOMContentLoaded", () =>
 	                    <img src="https://resources.fodsoft.com/images/web/icono_itch.webp"
 	                         class="footer-enlace invertir-color pintar-rojo" draggable="false" oncontextmenu="return false">
 	                </a>
+					<a href="https://github.com/neofodere" target="_blank">
+	                    <img src="https://resources.fodsoft.com/images/web/icono_github.webp"
+	                         class="footer-enlace invertir-color pintar-rojo" draggable="false" oncontextmenu="return false">
+	                </a>
 	            </div>
 	        </div>
 	    </footer>
@@ -175,6 +179,10 @@ document.addEventListener("DOMContentLoaded", () =>
 	                <span class="footer-visit invertir-color">Visit more</span>
 	                <a href="https://nsg-fodsoft.itch.io" target="_blank">
 	                    <img src="https://resources.fodsoft.com/images/web/icono_itch.webp"
+	                         class="footer-enlace" draggable="false" oncontextmenu="return false">
+	                </a>
+					<a href="https://github.com/neofodere" target="_blank">
+	                    <img src="https://resources.fodsoft.com/images/web/icono_github.webp"
 	                         class="footer-enlace" draggable="false" oncontextmenu="return false">
 	                </a>
 	            </div>
