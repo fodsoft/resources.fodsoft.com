@@ -166,9 +166,10 @@
 
 .footer-base
 {
-	background: #ececec;
 	padding: 40px 20px;
 	margin-top: 60px;
+	margin-bottom: 20px;
+	position: relative;
 }
 
 .footer-fodsoft
@@ -198,11 +199,16 @@
 }
 
 .icono-footer 
-{ 
-	height: 100%; 
+{
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto 0;
+	height: 100%;
 	width: auto;
 	object-fit: contain;
-	user-select: none; 
+	user-select: none;
 }
 
 .footer-centro
@@ -325,3 +331,4 @@
 	100% { transform: scale(1); } 
 }
 /* FODSOFT(TM). Neo Fodere de Frutos. All rights reserved. */
+
