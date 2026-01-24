@@ -9,7 +9,7 @@
 		<script src="https://resources.fodsoft.com/fodsoft.js" defer></script>
 		<script src="https://resources.fodsoft.com/html.js" defer></script>
 		<style>
-			body.light-theme
+			body
 			{
 				background: #ffffff;
 				margin: 0;
@@ -44,7 +44,7 @@
 			{
 	            font-size: 1.6rem;
 	            margin: 0;
-	            color: #333;
+	            color: #000;
 	        }
 	
 	        #contador
@@ -54,18 +54,7 @@
 	            color: red;
 	        }
 	    </style>
-	</head>
-	
-	<body class="light-theme">
-		<div id="header-fodsoft"></div>
-	    <main class="error-404">
-			<img src="https://resources.fodsoft.com/images/web/404.webp">
-				<p data-idioma="404">Page not found. Redirecting to fodsoft.com in:</p>
-	        <p style="color:red; font-weight:bold; font-size:25px;">
-				<span id="contador">10</span>
-	        </p>
-	    </main>
-		<div id="footer-fodsoft"></div>
+
 		<script>
 	        let tiempo = 10;
 	        const countdown = document.getElementById("contador");
@@ -80,6 +69,18 @@
 				}
 			}, 1000);
 		</script>
+	</head>
+	
+	<body>
+		<div id="header-fodsoft"></div>
+	    <main class="error-404">
+			<img src="https://resources.fodsoft.com/images/web/404.webp">
+				<p data-idioma="404">Page not found. Redirecting to fodsoft.com in:</p>
+	        <p style="color:red; font-weight:bold; font-size:25px;">
+				<span id="contador">10</span>
+	        </p>
+	    </main>
+		<div id="footer-fodsoft"></div>
 	</body>
 </html>
 <!-- FODSOFT(TM), NSTUDIOS GAMES(TM). Neo Fodere de Frutos. All rights reserved -->
