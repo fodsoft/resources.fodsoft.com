@@ -82,7 +82,7 @@ document.addEventListener("DOMContentLoaded", () =>
 	                    © 2026 FODSOFT™. Néo Foderé de Frutos. All rights reserved.
 	                </p>
 	                <div class="footer-enlaces">
-	                    <a href="mailto:contact@fodsoft.com" class="pintar-rojo">CONTACT</a>
+	                    <a href="mailto:contact@fodsoft.com" target="_blank" class="pintar-rojo">CONTACT</a>
 	                    <span class="footer-separador">•</span>
 	                    <a href="https://resources.fodsoft.com/LEGAL.html" target="_blank" class="pintar-rojo">LEGAL</a>
 	                </div>
@@ -178,7 +178,7 @@ document.addEventListener("DOMContentLoaded", () =>
 	                    © 2026 FODSOFT™, NSTUDIOS GAMES™. Néo Foderé de Frutos. All rights reserved.
 	                </p>
 	                <div class="footer-enlaces">
-	                    <a href="mailto:contact@fodsoft.com" class="invertir-color">CONTACT</a>
+	                    <a href="mailto:contact@fodsoft.com" target="_blank" class="invertir-color">CONTACT</a>
 	                    <span class="footer-separador invertir-color">•</span>
 	                    <a href="https://resources.fodsoft.com/LEGAL.html" target="_blank" class="invertir-color">LEGAL</a>
 	                </div>
