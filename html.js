@@ -189,7 +189,7 @@ document.addEventListener("DOMContentLoaded", () =>
 	                    <img src="https://resources.fodsoft.com/images/web/icono_github.webp"
 	                         class="footer-enlace" draggable="false" oncontextmenu="return false">
 	                </a>
-					<a href="https://youtube.com/@fodsoft" target="_blank">
+					<a href="https://youtube.com/@nstudios-games" target="_blank">
 	                    <img src="https://resources.fodsoft.com/images/web/icono_youtube.webp"
 	                         class="footer-enlace" draggable="false" oncontextmenu="return false">
 	                </a>
