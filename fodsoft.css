@@ -275,7 +275,7 @@
 
 .redondear-bordes
 {
-	border-radius: 10px;
+	border-radius: 5px;
 }
 
 .pintar-blanco
@@ -311,6 +311,3 @@
 	100% { transform: scale(1); } 
 }
 /* FODSOFT(TM). Neo Fodere de Frutos. All rights reserved. */
-
-
-
