@@ -77,7 +77,7 @@ document.addEventListener("DOMContentLoaded", () =>
 	        <div class="footer-contenido">
 	            <div class="footer-centro">
 	                <img src="https://resources.fodsoft.com/images/web/logo_fodsoft_b.webp"
-	                     class="footer-logo footer-logo-fodsoft" draggable="false" oncontextmenu="return false">
+	                     class="footer-logo footer-logo-fodsoft pintar-blanco" draggable="false" oncontextmenu="return false">
 	                <p class="footer-texto">
 	                    © 2026 FODSOFT™. Néo Foderé de Frutos. All rights reserved.
 	                </p>
