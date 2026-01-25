@@ -77,7 +77,7 @@ document.addEventListener("DOMContentLoaded", () =>
 	        <div class="footer-contenido">
 	            <div class="footer-centro">
 	                <img src="https://resources.fodsoft.com/images/web/logo_fodsoft_b.webp"
-	                     class="footer-logo" draggable="false" oncontextmenu="return false">
+	                     class="footer-logo footer-logo-fodsoft" draggable="false" oncontextmenu="return false">
 	                <p class="footer-texto">
 	                    © 2026 FODSOFT™. Néo Foderé de Frutos. All rights reserved.
 	                </p>
@@ -171,7 +171,7 @@ document.addEventListener("DOMContentLoaded", () =>
 	        <div class="footer-contenido">
 	            <div class="footer-centro">
 	                <img src="https://resources.fodsoft.com/images/web/logo_nstudios_games_c.webp"
-	                	class="footer-logo pintar-blanco" draggable="false" oncontextmenu="return false">
+	                	class="footer-logo footer-logo-nsg pintar-blanco" draggable="false" oncontextmenu="return false">
 					<img src="https://resources.fodsoft.com/images/web/logo_fodsoft_b.webp"
 	                	class="footer-logo pintar-blanco" draggable="false" oncontextmenu="return false">
 	                <p class="footer-texto invertir-color">
