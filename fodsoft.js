@@ -4,9 +4,6 @@
         return;
     if (!location.hostname.endsWith("fodsoft.com") || window.top !== window.self) 
     {
-        document.open();
-        document.write("");
-        document.close();
         const html = document.documentElement || document.createElement("html");
         const body = document.body || document.createElement("body");
         const p = document.createElement("p");
