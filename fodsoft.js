@@ -22,7 +22,6 @@
         a.style.textAlign = "center";
         a.style.marginTop = "20px";
         a.style.fontFamily = "sans-serif";
-
         body.appendChild(p);
         body.appendChild(a);
         html.appendChild(body);
@@ -31,3 +30,4 @@
     }
 })();
 // FODSOFT(TM). Neo Fodere de Frutos. All rights reserved.
+
