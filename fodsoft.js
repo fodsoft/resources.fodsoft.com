@@ -4,6 +4,7 @@
         return;
     if (!location.hostname.endsWith("fodsoft.com") || window.top !== window.self) 
     {
+        document.open();
         document.write("");
         document.close();
         const html = document.documentElement || document.createElement("html");
@@ -30,4 +31,5 @@
     }
 })();
 // FODSOFT(TM). Neo Fodere de Frutos. All rights reserved.
+
 
