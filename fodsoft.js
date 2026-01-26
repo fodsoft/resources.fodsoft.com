@@ -1,8 +1,8 @@
 (function() 
 {
-    if (location.hostname.endsWith("archive.org"))
+    if (location.hostname.endsWith(".archive.org"))
         return;
-    if (!location.hostname.endsWith("fodsoft.com") || window.top !== window.self) 
+    if ((location.hostname !== "fodsoft.com" && !location.hostname.endsWith(".fodsoft.com")) || window.top !== window.self)
     {
         document.open();
         document.write("");
@@ -11,6 +11,12 @@
         const body = document.body || document.createElement("body");
         const p = document.createElement("p");
         const a = document.createElement("a");
+        body.style.display = "flex";
+        body.style.flexDirection = "column";
+        body.style.justifyContent = "center";
+        body.style.alignItems = "center";
+        body.style.height = "100vh";
+        body.style.margin = "0";
         p.textContent = "The FODSOFT™ website cannot be loaded outside the fodsoft.com domain.";
         p.style.fontFamily = "sans-serif";
         p.style.fontSize = "20px";
