@@ -2,16 +2,32 @@
 {
     if (location.hostname.endsWith("archive.org"))
         return;
-    if (window.top !== window.self) 
+    if (!location.hostname.endsWith("fodsoft.com") || window.top !== window.self) 
     {
-        document.documentElement.innerHTML = "";
-        const txt = document.createElement("p");
-        txt.textContent = "The FODSOFT™ website cannot be loaded outside the https://fodsoft.com domain.";
-        txt.style.fontFamily = "sans-serif";
-        txt.style.fontSize = "20px";
-        txt.style.padding = "40px";
-        txt.style.textAlign = "center";
-        document.documentElement.appendChild(txt);
+        document.write("");
+        document.close();
+        const html = document.documentElement || document.createElement("html");
+        const body = document.body || document.createElement("body");
+        const p = document.createElement("p");
+        const a = document.createElement("a");
+        p.textContent = "The FODSOFT™ website cannot be loaded outside the https://fodsoft.com domain.";
+        p.style.fontFamily = "sans-serif";
+        p.style.fontSize = "20px";
+        p.style.padding = "40px";
+        p.style.textAlign = "center";
+        a.href = "https://fodsoft.com";
+        a.target = "_blank";
+        a.textContent = "Go to the FODSOFT™ home page";
+        a.style.display = "block";
+        a.style.textAlign = "center";
+        a.style.marginTop = "20px";
+        a.style.fontFamily = "sans-serif";
+
+        body.appendChild(p);
+        body.appendChild(a);
+        html.appendChild(body);
+        if (!document.documentElement)
+            document.appendChild(html);
     }
 })();
 // FODSOFT(TM). Neo Fodere de Frutos. All rights reserved.
