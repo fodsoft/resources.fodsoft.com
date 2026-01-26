@@ -11,7 +11,7 @@
         const body = document.body || document.createElement("body");
         const p = document.createElement("p");
         const a = document.createElement("a");
-        p.textContent = "The FODSOFT™ website cannot be loaded outside the https://fodsoft.com domain.";
+        p.textContent = "The FODSOFT™ website cannot be loaded outside the fodsoft.com domain.";
         p.style.fontFamily = "sans-serif";
         p.style.fontSize = "20px";
         p.style.padding = "40px";
