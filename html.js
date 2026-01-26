@@ -3,23 +3,23 @@ document.addEventListener("DOMContentLoaded", () =>
 	const fodsoft_header = `
 		<div class="header-base header-fodsoft">
 			<div class="menu-software">
-				<img src="https://resources.fodsoft.com/images/web/icono_software.webp"
+				<img src="https://resources.fodsoft.com/images/web/icono_software.avif"
 	                 class="icono-lista-software" draggable="false" oncontextmenu="return false">
 	            <div class="lista-software">
 					<a href="https://fodsoft.com/vdream">
-						<img src="https://resources.fodsoft.com/images/web/icono_vdream.webp"
+						<img src="https://resources.fodsoft.com/images/web/icono_vdream.avif"
 							class="icono-software" draggable="false" oncontextmenu="return false"> V.Dream
 					</a>
 					<a href="https://fodsoft.com/nwibuzz">
-						<img src="https://resources.fodsoft.com/images/web/icono_nwibuzz.webp"
+						<img src="https://resources.fodsoft.com/images/web/icono_nwibuzz.avif"
 							class="icono-software" draggable="false" oncontextmenu="return false"> Nwibuzz&trade;
 					</a>
 					<a href="https://fodsoft.com/denfo">
-						<img src="https://resources.fodsoft.com/images/web/icono_denfo.webp"
+						<img src="https://resources.fodsoft.com/images/web/icono_denfo.avif"
 							class="icono-software" draggable="false" oncontextmenu="return false"> DENFO&trade;
 					</a>
 					<a href="https://fodsoft.com/fvax">
-						<img src="https://resources.fodsoft.com/images/web/icono_fvax.webp"
+						<img src="https://resources.fodsoft.com/images/web/icono_fvax.avif"
 							class="icono-software" draggable="false" oncontextmenu="return false"> FVAX
 					</a>
 					<a href="https://github.com/neofodere/nsave" target="_blank">
@@ -31,40 +31,40 @@ document.addEventListener("DOMContentLoaded", () =>
 
 	        <div class="header-logo">
 				<a href="https://fodsoft.com/">
-		        	<img src="https://resources.fodsoft.com/images/web/fodsoft_header.webp" class="logo-header quitar-suavizado-firefox"
+		        	<img src="https://resources.fodsoft.com/images/web/fodsoft_header.avif" class="logo-header quitar-suavizado-firefox"
 						draggable="false" oncontextmenu="return false;">
 				</a>
             </div>
 
             <nav class="links-header">
                 <a href="https://fodsoft.com" class="link-header-base link-header-fodsoft" data-idioma="inicio">
-					<img src="https://resources.fodsoft.com/images/web/icono_inicio.webp"
+					<img src="https://resources.fodsoft.com/images/web/icono_inicio.avif"
 						class="icono-header pintar-rojo" draggable="false" oncontextmenu="return false"> Home
 				</a>
 				<a href="https://nstudios-games.fodsoft.com" class="link-header-base link-header-fodsoft" data-idioma="juegos">
-					<img src="https://resources.fodsoft.com/images/web/icono_juegos.webp"
+					<img src="https://resources.fodsoft.com/images/web/icono_juegos.avif"
 						class="icono-header pintar-rojo" draggable="false" oncontextmenu="return false"> Games
 				</a>
 				<a href="https://neofodere.fodsoft.com" class="link-header-base link-header-fodsoft" data-idioma="acerca">
-					<img src="https://resources.fodsoft.com/images/web/icono_acerca.webp"
+					<img src="https://resources.fodsoft.com/images/web/icono_acerca.avif"
 						class="icono-header pintar-rojo" draggable="false" oncontextmenu="return false"> About
 				</a>
             </nav>
 
 			<div class="menu-nav">
-				<img src="https://resources.fodsoft.com/images/web/icono_menu.webp"
+				<img src="https://resources.fodsoft.com/images/web/icono_menu.avif"
          			class="icono-lista-nav" draggable="false" oncontextmenu="return false">
 				<div class="lista-nav">
 					<a href="https://fodsoft.com/" data-idioma="inicio">
-						<img src="https://resources.fodsoft.com/images/web/icono_inicio.webp"
+						<img src="https://resources.fodsoft.com/images/web/icono_inicio.avif"
 							class="icono-software" draggable="false" oncontextmenu="return false"> Inicio
 					</a>
 					<a href="https://nstudios-games.fodsoft.com/" data-idioma="juegos">
-						<img src="https://resources.fodsoft.com/images/web/icono_juegos.webp"
+						<img src="https://resources.fodsoft.com/images/web/icono_juegos.avif"
 							class="icono-software" draggable="false" oncontextmenu="return false"> Games
 					</a>
 					<a href="https://neofodere.fodsoft.com/" data-idioma="acerca">
-						<img src="https://resources.fodsoft.com/images/web/icono_acerca.webp"
+						<img src="https://resources.fodsoft.com/images/web/icono_acerca.avif"
 							class="icono-software" draggable="false" oncontextmenu="return false"> About
 					</a>
 				</div>
@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", () =>
 	    <footer class="footer-base footer-fodsoft">
 	        <div class="footer-contenido">
 	            <div class="footer-centro">
-	                <img src="https://resources.fodsoft.com/images/web/logo_fodsoft_b.webp"
+	                <img src="https://resources.fodsoft.com/images/web/logo_fodsoft_b.avif"
 	                     class="footer-logo" draggable="false" oncontextmenu="return false">
 	                <p class="footer-texto">
 	                    © 2026 FODSOFT™. Néo Foderé de Frutos. All rights reserved.
@@ -90,19 +90,19 @@ document.addEventListener("DOMContentLoaded", () =>
 	            <div class="footer-derecha">
 	                <span class="footer-visit">Visit more</span>
 	                <a href="https://fodsoft.itch.io" target="_blank">
-	                    <img src="https://resources.fodsoft.com/images/web/icono_itch.webp"
+	                    <img src="https://resources.fodsoft.com/images/web/icono_itch.avif"
 	                         class="footer-enlace invertir-color pintar-rojo" draggable="false" oncontextmenu="return false">
 	                </a>
 					<a href="https://github.com/neofodere" target="_blank">
-	                    <img src="https://resources.fodsoft.com/images/web/icono_github.webp"
+	                    <img src="https://resources.fodsoft.com/images/web/icono_github.avif"
 	                         class="footer-enlace invertir-color pintar-rojo" draggable="false" oncontextmenu="return false">
 	                </a>
 					<a href="https://linkedin.com/company/fodsoft" target="_blank">
-	                    <img src="https://resources.fodsoft.com/images/web/icono_linkedin.webp"
+	                    <img src="https://resources.fodsoft.com/images/web/icono_linkedin.avif"
 	                         class="footer-enlace invertir-color pintar-rojo redondear-bordes" draggable="false" oncontextmenu="return false">
 	                </a>
 					<a href="https://youtube.com/@fodsoft" target="_blank">
-	                    <img src="https://resources.fodsoft.com/images/web/icono_youtube.webp"
+	                    <img src="https://resources.fodsoft.com/images/web/icono_youtube.avif"
 	                         class="footer-enlace invertir-color pintar-rojo" draggable="false" oncontextmenu="return false">
 	                </a>
 	            </div>
@@ -113,7 +113,7 @@ document.addEventListener("DOMContentLoaded", () =>
 	const nsg_header = `
 		<div class="header-base header-nsg">
 			<div class="menu-software">
-	            <img src="https://resources.fodsoft.com/images/web/icono_software.webp"
+	            <img src="https://resources.fodsoft.com/images/web/icono_software.avif"
 	                 class="icono-lista-software invertir-color" draggable="false" oncontextmenu="return false">
 	            <div class="lista-software">
 					<a href="https://nstudios-games.fodsoft.com/fodfru">
@@ -125,40 +125,40 @@ document.addEventListener("DOMContentLoaded", () =>
 
 	        <div class="header-logo">
 				<a href="https://nstudios-games.fodsoft.com/">
-		        	<img src="https://resources.fodsoft.com/images/web/nstudios_games_header.webp" class="logo-header"
+		        	<img src="https://resources.fodsoft.com/images/web/nstudios_games_header.avif" class="logo-header"
 						draggable="false" oncontextmenu="return false;">
 				</a>
             </div>
 
             <nav class="links-header">
                 <a href="https://nstudios-games.fodsoft.com" class="link-header-base link-header-nsg" data-idioma="inicio">
-					<img src="https://resources.fodsoft.com/images/web/icono_inicio.webp"
+					<img src="https://resources.fodsoft.com/images/web/icono_inicio.avif"
 						class="icono-header invertir-color" draggable="false" oncontextmenu="return false"> Home
 				</a>
 				<a href="https://fodsoft.com" class="link-header-base link-header-nsg" data-idioma="software">
-					<img src="https://resources.fodsoft.com/images/web/icono_soft.webp"
+					<img src="https://resources.fodsoft.com/images/web/icono_soft.avif"
 						class="icono-header invertir-color" draggable="false" oncontextmenu="return false"> Software
 				</a>
 				<a href="https://neofodere.fodsoft.com" class="link-header-base link-header-nsg" data-idioma="acerca">
-					<img src="https://resources.fodsoft.com/images/web/icono_acerca.webp"
+					<img src="https://resources.fodsoft.com/images/web/icono_acerca.avif"
 						class="icono-header invertir-color" draggable="false" oncontextmenu="return false"> About
 				</a>
             </nav>
 
 			<div class="menu-nav">
-				<img src="https://resources.fodsoft.com/images/web/icono_menu.webp"
+				<img src="https://resources.fodsoft.com/images/web/icono_menu.avif"
          			class="icono-lista-nav invertir-color" draggable="false" oncontextmenu="return false">
 				<div class="lista-nav">
 					<a href="https://nstudios-games.fodsoft.com/" data-idioma="inicio">
-						<img src="https://resources.fodsoft.com/images/web/icono_inicio.webp"
+						<img src="https://resources.fodsoft.com/images/web/icono_inicio.avif"
 							class="icono-software" draggable="false" oncontextmenu="return false"> Inicio
 					</a>
 					<a href="https://fodsoft.com/" data-idioma="software">
-						<img src="https://resources.fodsoft.com/images/web/icono_soft.webp"
+						<img src="https://resources.fodsoft.com/images/web/icono_soft.avif"
 							class="icono-software" draggable="false" oncontextmenu="return false"> Software
 					</a>
 					<a href="https://neofodere.fodsoft.com/" data-idioma="acerca">
-						<img src="https://resources.fodsoft.com/images/web/icono_acerca.webp"
+						<img src="https://resources.fodsoft.com/images/web/icono_acerca.avif"
 							class="icono-software" draggable="false" oncontextmenu="return false"> About
 					</a>
 				</div>
@@ -170,9 +170,9 @@ document.addEventListener("DOMContentLoaded", () =>
 		<footer class="footer-base footer-nsg">
 	        <div class="footer-contenido">
 	            <div class="footer-centro">
-	                <img src="https://resources.fodsoft.com/images/web/logo_nstudios_games_c.webp"
+	                <img src="https://resources.fodsoft.com/images/web/logo_nstudios_games_c.avif"
 	                	class="footer-logo pintar-blanco" draggable="false" oncontextmenu="return false">
-					<img src="https://resources.fodsoft.com/images/web/logo_fodsoft_b.webp"
+					<img src="https://resources.fodsoft.com/images/web/logo_fodsoft_b.avif"
 	                	class="footer-logo pintar-blanco" draggable="false" oncontextmenu="return false">
 	                <p class="footer-texto invertir-color">
 	                    © 2026 FODSOFT™, NSTUDIOS GAMES™. Néo Foderé de Frutos. All rights reserved.
@@ -186,19 +186,19 @@ document.addEventListener("DOMContentLoaded", () =>
 	            <div class="footer-derecha">
 	                <span class="footer-visit invertir-color">Visit more</span>
 	                <a href="https://nsg-fodsoft.itch.io" target="_blank">
-	                    <img src="https://resources.fodsoft.com/images/web/icono_itch.webp"
+	                    <img src="https://resources.fodsoft.com/images/web/icono_itch.avif"
 	                         class="footer-enlace" draggable="false" oncontextmenu="return false">
 	                </a>
 					<a href="https://github.com/neofodere" target="_blank">
-	                    <img src="https://resources.fodsoft.com/images/web/icono_github.webp"
+	                    <img src="https://resources.fodsoft.com/images/web/icono_github.avif"
 	                         class="footer-enlace" draggable="false" oncontextmenu="return false">
 	                </a>
 					<a href="https://www.linkedin.com/company/nstudios-games/" target="_blank">
-	                    <img src="https://resources.fodsoft.com/images/web/icono_linkedin.webp"
+	                    <img src="https://resources.fodsoft.com/images/web/icono_linkedin.avif"
 	                         class="footer-enlace redondear-bordes" draggable="false" oncontextmenu="return false">
 	                </a>
 					<a href="https://youtube.com/@nstudios-games" target="_blank">
-	                    <img src="https://resources.fodsoft.com/images/web/icono_youtube.webp"
+	                    <img src="https://resources.fodsoft.com/images/web/icono_youtube.avif"
 	                         class="footer-enlace" draggable="false" oncontextmenu="return false">
 	                </a>
 	            </div>
