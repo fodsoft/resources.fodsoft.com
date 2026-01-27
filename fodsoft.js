@@ -1,4 +1,3 @@
-// nSAVE Blocker - (c) Neo Fodere de Frutos. All rights reserved.
 (function() 
 {
     if (location.hostname.endsWith(".archive.org"))
@@ -46,5 +45,5 @@
         if (!document.documentElement)
             document.appendChild(html);
     }
-})();
+})(); // nSAVE Blocker - (c) Neo Fodere de Frutos. All rights reserved.
 // FODSOFT(TM). Neo Fodere de Frutos. All rights reserved.
