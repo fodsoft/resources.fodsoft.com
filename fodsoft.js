@@ -20,7 +20,7 @@
         body.style.alignItems = "center";
         body.style.height = "100vh";
         body.style.margin = "0";
-        img.src = "https://resources.fodsoft.com/images/ext/icono_entrada_prohibida.png";
+        img.src = "https://raw.githubusercontent.com/neofodere/nsave/refs/heads/main/images/icono_nsave_blocker.png";
         img.width = 128;
         img.style.marginBottom = "20px";
         p.textContent = "The FODSOFT™ website cannot be loaded outside the fodsoft.com domain.";
