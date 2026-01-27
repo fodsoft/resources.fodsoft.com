@@ -1,6 +1,6 @@
 (function() 
 {
-    if (location.hostname.endsWith(".archive.org"))
+    if ((location.hostname == "fodsoft.com" && location.hostname.endsWith(".fodsoft.com")) || location.hostname.endsWith(".archive.org"))
         return;
     if ((location.hostname !== "fodsoft.com" && !location.hostname.endsWith(".fodsoft.com")) || window.frameElement || window.top !== window.self)
     {
