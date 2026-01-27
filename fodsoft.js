@@ -20,7 +20,6 @@
         body.style.margin = "0";
         img.src = "https://resources.fodsoft.com/images/ext/icono_entrada_prohibida.png";
         img.width = 128;
-        img.height = 128;
         img.style.marginBottom = "20px";
         p.textContent = "The FODSOFT™ website cannot be loaded outside the fodsoft.com domain.";
         p.style.fontFamily = "sans-serif";
