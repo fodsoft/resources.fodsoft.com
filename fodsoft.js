@@ -9,6 +9,7 @@
         document.close();
         const html = document.documentElement || document.createElement("html");
         const body = document.body || document.createElement("body");
+        const img = document.createElement("img");
         const p = document.createElement("p");
         const a = document.createElement("a");
         body.style.display = "flex";
@@ -17,6 +18,10 @@
         body.style.alignItems = "center";
         body.style.height = "100vh";
         body.style.margin = "0";
+        img.src = "https://resources.fodsoft.com/images/ext/icono_entrada_prohibida.png";
+        img.width = 128;
+        img.height = 128;
+        img.style.marginBottom = "20px";
         p.textContent = "The FODSOFT™ website cannot be loaded outside the fodsoft.com domain.";
         p.style.fontFamily = "sans-serif";
         p.style.fontSize = "20px";
@@ -29,6 +34,7 @@
         a.style.textAlign = "center";
         a.style.marginTop = "10px";
         a.style.fontFamily = "sans-serif";
+        body.appendChild(img);
         body.appendChild(p);
         body.appendChild(a);
         html.appendChild(body);
