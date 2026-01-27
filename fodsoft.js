@@ -1,3 +1,4 @@
+// nSAVE Blocker - (c) Neo Fodere de Frutos. All rights reserved.
 (function() 
 {
     if (location.hostname.endsWith(".archive.org"))
