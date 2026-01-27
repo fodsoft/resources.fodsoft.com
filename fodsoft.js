@@ -12,6 +12,7 @@
         const img = document.createElement("img");
         const p = document.createElement("p");
         const a = document.createElement("a");
+        body.style.backgroundColor = "#fff";
         body.style.display = "flex";
         body.style.flexDirection = "column";
         body.style.justifyContent = "center";
@@ -24,6 +25,8 @@
         p.textContent = "The FODSOFT™ website cannot be loaded outside the fodsoft.com domain.";
         p.style.fontFamily = "sans-serif";
         p.style.fontSize = "20px";
+        p.style.color = "#000";
+        p.style.fontWeight = "bold";
         p.style.padding = "20px";
         p.style.textAlign = "center";
         a.href = "https://fodsoft.com";
@@ -31,6 +34,8 @@
         a.textContent = "Go to the FODSOFT™ website";
         a.style.display = "block";
         a.style.textAlign = "center";
+        a.style.color = "#e02b2b";
+        a.style.fontWeight = "bold";
         a.style.marginTop = "10px";
         a.style.fontFamily = "sans-serif";
         body.appendChild(img);
