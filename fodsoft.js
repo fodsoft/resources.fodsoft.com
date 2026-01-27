@@ -27,7 +27,7 @@
         a.textContent = "Go to the FODSOFT™ website";
         a.style.display = "block";
         a.style.textAlign = "center";
-        a.style.marginTop = "20px";
+        a.style.marginTop = "10px";
         a.style.fontFamily = "sans-serif";
         body.appendChild(p);
         body.appendChild(a);
