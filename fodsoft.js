@@ -2,7 +2,7 @@
 {
     if (location.hostname.endsWith(".archive.org"))
         return;
-    if ((location.hostname !== "fodsoft.com" && !location.hostname.endsWith(".fodsoft.com")) || window.top !== window.self)
+    if ((location.hostname !== "fodsoft.com" && !location.hostname.endsWith(".fodsoft.com")) || window.frameElement || window.top !== window.self)
     {
         document.open();
         document.write("");
@@ -20,11 +20,11 @@
         p.textContent = "The FODSOFT™ website cannot be loaded outside the fodsoft.com domain.";
         p.style.fontFamily = "sans-serif";
         p.style.fontSize = "20px";
-        p.style.padding = "40px";
+        p.style.padding = "20px";
         p.style.textAlign = "center";
         a.href = "https://fodsoft.com";
         a.target = "_blank";
-        a.textContent = "Go to the FODSOFT™ home page";
+        a.textContent = "Go to the FODSOFT™ website";
         a.style.display = "block";
         a.style.textAlign = "center";
         a.style.marginTop = "20px";
