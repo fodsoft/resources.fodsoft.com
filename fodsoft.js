@@ -1,3 +1,13 @@
+(function ()
+ {
+    const ruta = window.location.pathname;
+    if (ruta.endsWith("/index.html")) 
+    {
+        const nuevaRuta = ruta.replace(/index\.html$/, "");
+        window.location.replace(nuevaRuta);
+    }
+})();
+
 (function() 
 {
     if (location.hostname.endsWith(".archive.org"))
