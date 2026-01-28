@@ -19,7 +19,7 @@ async function fvax_interpreter(url)
     const denominador_fps = dv.getUint32(offset, true); offset += 4;
     const ancho = dv.getUint32(offset, true); offset += 4;
     const alto = dv.getUint32(offset, true); offset += 4;
-    const bytes_video = new Uint8Array(buf, pos_video, tam_video);
+    const bytes_video = new Uint8Array(buffer, pos_video, tam_video);
     const binarios = [];
     binarios.push(hex
 	(
@@ -109,7 +109,7 @@ function u16(num)
 document.querySelectorAll("video").forEach(videoFvax => 
 {
 		const src = videoFvax.getAttribute("src");
-		if (src.endsWith(".fvax") && (location.hostname === "fodsoft.com" || location.hostname.endsWith(".fodsoft.com")) 
+		if (src.endsWith(".fvax") && (location.hostname === "fodsoft.com" || location.hostname.endsWith(".fodsoft.com")))
 		{
 			fvaxInterpreter(src).then(blob => 
 			{
