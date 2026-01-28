@@ -111,7 +111,7 @@ document.querySelectorAll("video").forEach(videoFvax =>
 		const src = videoFvax.getAttribute("src");
 		if (src.endsWith(".fvax") && (location.hostname === "fodsoft.com" || location.hostname.endsWith(".fodsoft.com")))
 		{
-			fvaxInterpreter(src).then(blob => 
+			fvax_interpreter(src).then(blob => 
 			{
 				videoFvax.src = URL.createObjectURL(blob);
 			});
