@@ -1,4 +1,4 @@
-/* FVAX Interpreter for Broswers by Néo Foderé de Frutos */
+/* FVAX Web Interpreter by Néo Foderé de Frutos */
 
 async function fvax_interpreter(url)
 {
