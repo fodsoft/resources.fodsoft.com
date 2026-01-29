@@ -265,39 +265,39 @@ document.addEventListener("DOMContentLoaded", () =>
 
 document.addEventListener("click", (e) =>
 {
-	const boton = document.getElementById("vdream-menu-boton")
-	const menu = document.getElementById("vdream-menu")
-	boton.onclick = () => 
+	const menuSoft = document.querySelector(".lista-software");
+	if (menuSoft) 
 	{
-		menu.style.display = menu.style.display === "flex" ? "none" : "flex"
+		if (e.target.closest(".icono-lista-software"))
+			menuSoft.style.display = menuSoft.style.display === "flex" ? "none" : "flex";
+		else if (!e.target.closest(".lista-software"))
+			menuSoft.style.display = "none";
 	}
-	window.addEventListener("resize", () => 
-	{
-		if (window.innerWidth > 1200)
-			menu.style.display = "none"
-	})
 
-	document.addEventListener("click", e => 
+	const menuNav = document.querySelector(".lista-nav");
+	if (menuNav) 
 	{
-		if (!menu.contains(e.target) && e.target !== boton)
-			menu.style.display = "none"
-	})
+		if (e.target.closest(".icono-lista-nav"))
+			menuNav.style.display = menuNav.style.display === "flex" ? "none" : "flex";
+		else if (!e.target.closest(".lista-nav"))
+			menuNav.style.display = "none";
+    }
 	
-    const menuSoft = document.querySelector(".lista-software");
-	if (true)
+	const boton = document.getElementById("vdream-menu-boton");
+	const menu = document.getElementById("vdream-menu");
+	if (boton && menu) 
 	{
-	    if (e.target.closest(".icono-lista-software"))
-	        menuSoft.style.display = menuSoft.style.display === "flex" ? "none" : "flex";
-	    else
-	        menuSoft.style.display = "none";
+		if (e.target === boton)
+			menu.style.display = menu.style.display === "flex" ? "none" : "flex";
+		else if (!menu.contains(e.target))
+			menu.style.display = "none";
 	}
-    const menuNav = document.querySelector(".lista-nav");
-	if (true)
-	{
-	    if (e.target.closest(".icono-lista-nav"))
-	        menuNav.style.display = menuNav.style.display === "flex" ? "none" : "flex";
-	    else
-	        menuNav.style.display = "none";
-	}
+});
+
+window.addEventListener("resize", () => 
+{
+	const menu = document.getElementById("vdream-menu");
+	if (menu && window.innerWidth > 1200)
+		menu.style.display = "none";
 });
 // FODSOFT(TM). Neo Fodere de Frutos. All rights reserved.
