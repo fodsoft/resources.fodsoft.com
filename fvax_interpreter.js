@@ -1,6 +1,6 @@
 /* FVAX Web Interpreter by Neo Fodere de Frutos */
 
-function leer_str(dv, offset, len)
+function leer_binario(dv, offset, len)
 {
     let str = "";
     for (let pos = 0; pos < len; pos++)
@@ -13,7 +13,7 @@ function leer_str(dv, offset, len)
     return (str);
 }
 
-function leer_u64(dv, offset)
+function leer_uint64(dv, offset)
 {
     const bytes_01 = dv.getUint32(offset, true);
     const bytes_02 = dv.getUint32(offset + 4, true);
@@ -25,7 +25,7 @@ async function fvax_interpreter(url)
     const respuesta = await fetch(url);
     const buffer = await respuesta.arrayBuffer();
     const dv = new DataView(buffer);
-    if (leer_str(dv, 0, 6) !== "[FVAX]")
+    if (leer_binario(dv, 0, 6) !== "[FVAX]")
         return;
     let offset = 0;
     offset += 6;
@@ -40,8 +40,8 @@ async function fvax_interpreter(url)
     offset += 4;
     offset += 4;
     offset += 4;
-    const pos_video = Number(leer_u64(dv, offset)); offset += 8;
-    const tam_video = Number(leer_u64(dv, offset)); offset += 8;
+    const pos_video = Number(leer_uint64(dv, offset)); offset += 8;
+    const tam_video = Number(leer_uint64(dv, offset)); offset += 8;
     offset += 8;
     offset += 8;
     offset += 8;
