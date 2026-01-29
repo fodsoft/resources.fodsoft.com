@@ -62,6 +62,8 @@ document.addEventListener("DOMContentLoaded", () =>
                 return;
             fvax_interpreter(src).then(blob =>
             {
+                if (!blob)
+                    return;
                 video.src = URL.createObjectURL(blob);
             })
         });
