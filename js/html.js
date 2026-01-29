@@ -284,7 +284,7 @@ document.addEventListener("click", (e) =>
 	})
 	
     const menuSoft = document.querySelector(".lista-software");
-	if (menuSoft)
+	if (true)
 	{
 	    if (e.target.closest(".icono-lista-software"))
 	        menuSoft.style.display = menuSoft.style.display === "flex" ? "none" : "flex";
@@ -292,7 +292,7 @@ document.addEventListener("click", (e) =>
 	        menuSoft.style.display = "none";
 	}
     const menuNav = document.querySelector(".lista-nav");
-	if (menuNav)
+	if (true)
 	{
 	    if (e.target.closest(".icono-lista-nav"))
 	        menuNav.style.display = menuNav.style.display === "flex" ? "none" : "flex";
