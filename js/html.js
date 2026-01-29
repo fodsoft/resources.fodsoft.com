@@ -218,10 +218,10 @@ document.addEventListener("DOMContentLoaded", () =>
 				<p>|</p>
 				<a href="https://fodsoft.com"><img src="https://resources.fodsoft.com/images/web/icono_fodsoft.avif" class="icono-header pintar-blanco"> FODSOFT™</a>
 			</nav>
-			<img src="https://resources.fodsoft.com/images/web/icono_menu.avif" class="vdream-menu-icono invertir-color" id="vdream-menu-boton">
+			<img src="https://resources.fodsoft.com/images/web/icono_menu.avif" class="vdream-menu-icono invertir-color" id="icono-lista-software">
 		</header>
 
-		<div class="vdream-menu-desplegable" id="vdream-menu">
+		<div class="vdream-menu-desplegable" id="lista-software">
 			<a href="https://fodsoft.com/vdream/"><img src="https://resources.fodsoft.com/images/web/icono_inicio.avif" class="icono-header invertir-color"> Home</a>
 			<a href="https://fodsoft.com/vdream/download"><img src="https://resources.fodsoft.com/images/web/icono_descargar.avif" class="icono-header"> Download</a>
 			<a href="https://fodsoft.com/vdream/compatibility"><img src="https://resources.fodsoft.com/images/web/icono_lista.avif" class="icono-header"> Compatibility</a>
@@ -282,21 +282,11 @@ document.addEventListener("click", (e) =>
 		else if (!e.target.closest(".lista-nav"))
 			menuNav.style.display = "none";
     }
-	
-	const boton = document.getElementById("vdream-menu-boton");
-	const menu = document.getElementById("vdream-menu");
-	if (boton && menu) 
-	{
-		if (e.target === boton)
-			menu.style.display = menu.style.display === "flex" ? "none" : "flex";
-		else if (!menu.contains(e.target))
-			menu.style.display = "none";
-	}
 });
 
 window.addEventListener("resize", () => 
 {
-	const menu = document.getElementById("vdream-menu");
+	const menu = document.getElementById("lista-software");
 	if (menu && window.innerWidth > 1200)
 		menu.style.display = "none";
 });
