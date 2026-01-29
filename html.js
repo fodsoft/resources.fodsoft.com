@@ -206,20 +206,51 @@ document.addEventListener("DOMContentLoaded", () =>
 	    </footer>
 	`;
 
-	const headerFodsoft = document.getElementById("header-fodsoft");
-	const footerFodsoft = document.getElementById("footer-fodsoft");
-    if (headerFodsoft && footerFodsoft)
-	{
-        headerFodsoft.innerHTML = fodsoft_header;
-		footerFodsoft.innerHTML = fodsoft_footer;
-	}
+	const vdream_header = `
+		<header class="vdream-header">
+			<a href="https://fodsoft.com/vdream/"> <img src="https://resources.fodsoft.com/images/web/logo_vdream.avif" class="vdream-logo" draggable="false" oncontextmenu="return false"></a>
+			<nav class="vdream-nav">
+				<a href="https://fodsoft.com/vdream/"><img src="https://resources.fodsoft.com/images/web/icono_inicio.avif" class="icono-header invertir-color"> Home</a>
+				<a href="https://fodsoft.com/vdream/download"><img src="https://resources.fodsoft.com/images/web/icono_descargar.avif" class="icono-header"> Download</a>
+				<a href="https://fodsoft.com/vdream/compatibility"><img src="https://resources.fodsoft.com/images/web/icono_lista.avif" class="icono-header"> Compatibility</a>
+				<a href="https://fodsoft.com/vdream/documentation"><img src="https://resources.fodsoft.com/images/web/icono_docu.avif" class="icono-header"> Documentation</a>
+				<a href="https://github.com/neofodere/vdream" target="_blank"><img src="https://resources.fodsoft.com/images/web/icono_github.avif" class="icono-header"> GitHub</a>
+				<p>|</p>
+				<a href="https://fodsoft.com"><img src="https://resources.fodsoft.com/images/web/icono_fodsoft.avif" class="icono-header pintar-blanco"> FODSOFT™</a>
+			</nav>
+			<img src="https://resources.fodsoft.com/images/web/icono_menu.avif" class="vdream-menu-icono invertir-color" id="vdream-menu-boton">
+		</header>
+	`;
 
-	const headerNSG = document.getElementById("header-nsg");
-	const footerNSG = document.getElementById("footer-nsg");
-	if (headerNSG && footerNSG)
+	const vdream_footer = `
+		
+	`;
+
+	if (location.hostname === "fodsoft.com" || location.hostname.endsWith(".fodsoft.com"))
 	{
-        headerNSG.innerHTML = nsg_header;
-		footerNSG.innerHTML = nsg_footer;
+		const headerFodsoft = document.getElementById("header-fodsoft");
+		const footerFodsoft = document.getElementById("footer-fodsoft");
+	    if (headerFodsoft && footerFodsoft)
+		{
+	        headerFodsoft.innerHTML = fodsoft_header;
+			footerFodsoft.innerHTML = fodsoft_footer;
+		}
+	
+		const headerNSG = document.getElementById("header-nsg");
+		const footerNSG = document.getElementById("footer-nsg");
+		if (headerNSG && footerNSG)
+		{
+	        headerNSG.innerHTML = nsg_header;
+			footerNSG.innerHTML = nsg_footer;
+		}
+	
+		const headerVdream = document.getElementById("header-vdream");
+		const footerVdream = document.getElementById("footer-vdream");
+		if (headerVdream)
+		{
+			headerVdream.innerHTML = vdream_header;
+			//footerVdream.innerHTML = vdream_footer;
+		}
 	}
 });
 
