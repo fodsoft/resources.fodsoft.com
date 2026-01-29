@@ -1,4 +1,4 @@
-/* FVAX Web Interpreter - FODSOFT(TM) */
+/* FVAX Web Interpreter by Neo Fodere de Frutos */
 
 function leer_str(dv, offset, len)
 {
