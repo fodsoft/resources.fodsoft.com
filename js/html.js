@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => 
 {
 	const fodsoft_header = `
-		<div class="header-base header-fodsoft">
+		<header class="header-base header-fodsoft">
 			<div class="menu-software">
 				<img src="https://resources.fodsoft.com/images/web/icono_software.avif"
 	                 class="icono-lista-software" draggable="false" oncontextmenu="return false">
@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", () =>
 					</a>
 				</div>
 			</div>
-        </div>
+        </header>
 	`;
 
 	const fodsoft_footer = `
@@ -111,7 +111,7 @@ document.addEventListener("DOMContentLoaded", () =>
 	`;
 
 	const nsg_header = `
-		<div class="header-base header-nsg">
+		<header class="header-base header-nsg">
 			<div class="menu-software">
 	            <img src="https://resources.fodsoft.com/images/web/icono_software.avif"
 	                 class="icono-lista-software invertir-color" draggable="false" oncontextmenu="return false">
@@ -163,7 +163,7 @@ document.addEventListener("DOMContentLoaded", () =>
 					</a>
 				</div>
 			</div>
-        </div>
+        </header>
 	`;
 
 	const nsg_footer = `
