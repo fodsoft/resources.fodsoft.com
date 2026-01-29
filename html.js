@@ -220,6 +220,15 @@ document.addEventListener("DOMContentLoaded", () =>
 			</nav>
 			<img src="https://resources.fodsoft.com/images/web/icono_menu.avif" class="vdream-menu-icono invertir-color" id="vdream-menu-boton">
 		</header>
+
+		<div class="vdream-menu-desplegable" id="vdream-menu">
+			<a href="https://fodsoft.com/vdream/"><img src="https://resources.fodsoft.com/images/web/icono_inicio.avif" class="icono-header invertir-color"> Home</a>
+			<a href="https://fodsoft.com/vdream/download"><img src="https://resources.fodsoft.com/images/web/icono_descargar.avif" class="icono-header"> Download</a>
+			<a href="https://fodsoft.com/vdream/compatibility"><img src="https://resources.fodsoft.com/images/web/icono_lista.avif" class="icono-header"> Compatibility</a>
+			<a href="https://fodsoft.com/vdream/documentation"><img src="https://resources.fodsoft.com/images/web/icono_docu.avif" class="icono-header"> Documentation</a>
+			<a href="https://github.com/neofodere/vdream" target="_blank"><img src="https://resources.fodsoft.com/images/web/icono_github.avif" class="icono-header"> GitHub</a>
+			<a href="https://fodsoft.com"><img src="https://resources.fodsoft.com/images/web/icono_fodsoft.avif" class="icono-header pintar-blanco"> FODSOFT™</a>
+		</div>
 	`;
 
 	const vdream_footer = `
@@ -232,7 +241,7 @@ document.addEventListener("DOMContentLoaded", () =>
 		const footerFodsoft = document.getElementById("footer-fodsoft");
 	    if (headerFodsoft && footerFodsoft)
 		{
-	        headerFodsoft.innerHTML = fodsoft_header;
+			headerFodsoft.innerHTML = fodsoft_header;
 			footerFodsoft.innerHTML = fodsoft_footer;
 		}
 	
@@ -240,13 +249,13 @@ document.addEventListener("DOMContentLoaded", () =>
 		const footerNSG = document.getElementById("footer-nsg");
 		if (headerNSG && footerNSG)
 		{
-	        headerNSG.innerHTML = nsg_header;
+			headerNSG.innerHTML = nsg_header;
 			footerNSG.innerHTML = nsg_footer;
 		}
 	
 		const headerVdream = document.getElementById("header-vdream");
 		const footerVdream = document.getElementById("footer-vdream");
-		if (headerVdream)
+		if (headerVdream)// && footerVdream)
 		{
 			headerVdream.innerHTML = vdream_header;
 			//footerVdream.innerHTML = vdream_footer;
@@ -256,6 +265,24 @@ document.addEventListener("DOMContentLoaded", () =>
 
 document.addEventListener("click", (e) =>
 {
+	const boton = document.getElementById("vdream-menu-boton")
+	const menu = document.getElementById("vdream-menu")
+	boton.onclick = () => 
+	{
+		menu.style.display = menu.style.display === "flex" ? "none" : "flex"
+	}
+	window.addEventListener("resize", () => 
+	{
+		if (window.innerWidth > 1200)
+			menu.style.display = "none"
+	})
+
+	document.addEventListener("click", e => 
+	{
+		if (!menu.contains(e.target) && e.target !== boton)
+			menu.style.display = "none"
+	})
+	
     const menuSoft = document.querySelector(".lista-software");
     if (e.target.closest(".icono-lista-software"))
         menuSoft.style.display = menuSoft.style.display === "flex" ? "none" : "flex";
