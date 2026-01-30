@@ -209,7 +209,7 @@ document.addEventListener("DOMContentLoaded", () =>
 	const vdream_header = `
 		<header class="vdream-header">
 			<a href="https://fodsoft.com/vdream/"> <img src="https://resources.fodsoft.com/images/web/logo_vdream.avif" class="vdream-logo" draggable="false" oncontextmenu="return false"></a>
-			<nav class="vdream-nav">
+			<nav class="vdream-nav" id="lista-software">
 				<a href="https://fodsoft.com/vdream/"><img src="https://resources.fodsoft.com/images/web/icono_inicio.avif" class="icono-header invertir-color"> Home</a>
 				<a href="https://fodsoft.com/vdream/download"><img src="https://resources.fodsoft.com/images/web/icono_descargar.avif" class="icono-header"> Download</a>
 				<a href="https://fodsoft.com/vdream/compatibility"><img src="https://resources.fodsoft.com/images/web/icono_lista.avif" class="icono-header"> Compatibility</a>
@@ -221,7 +221,7 @@ document.addEventListener("DOMContentLoaded", () =>
 			<img src="https://resources.fodsoft.com/images/web/icono_menu.avif" class="vdream-menu-icono invertir-color" id="icono-lista-software">
 		</header>
 
-		<div class="vdream-menu-desplegable" id="lista-software">
+		<div class="vdream-menu-desplegable">
 			<a href="https://fodsoft.com/vdream/"><img src="https://resources.fodsoft.com/images/web/icono_inicio.avif" class="icono-header invertir-color"> Home</a>
 			<a href="https://fodsoft.com/vdream/download"><img src="https://resources.fodsoft.com/images/web/icono_descargar.avif" class="icono-header"> Download</a>
 			<a href="https://fodsoft.com/vdream/compatibility"><img src="https://resources.fodsoft.com/images/web/icono_lista.avif" class="icono-header"> Compatibility</a>
