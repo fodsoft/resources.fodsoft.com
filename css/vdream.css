@@ -59,7 +59,7 @@
 	user-select: none;
 }
 
-.vdream-header .icono-lista-nav
+.icono-lista-nav
 {
 	display: none;
 	height: 32px;
@@ -164,7 +164,7 @@
 		display: none;
 	}
 	
-	.vdream-header .icono-lista-nav
+	.icono-lista-nav
 	{
 		display: block;
 	}
