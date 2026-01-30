@@ -77,10 +77,9 @@
 	right: 18px;
 	width: 220px;
 	border-radius: 10px;
-	background: rgba(255,255,255,0.25);
-	backdrop-filter: blur(10px);
-	box-shadow: 0 0 15px rgba(100,150,255,0.7);
+	background: rgba(255,255,255,0.5);
 	backdrop-filter: blur(12px);
+	box-shadow: 0 0 15px rgba(100,150,255,0.7);
 	padding: 20px;
 	flex-direction: column;
 	gap: 15px;
