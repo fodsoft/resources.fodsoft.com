@@ -1,11 +1,36 @@
 window.history.scrollRestoration = "manual";
 window.addEventListener("beforeunload", () => 
 {
-	window.scrollTo(0, 0);
+	if (performance.navigation.type === performance.navigation.TYPE_RELOAD)
+		window.scrollTo(0, 0);
 });
 window.addEventListener("load", () => 
 {
 	window.scrollTo(0, 0);
+});
+
+window.addEventListener("load", () =>
+{
+	const AplicaCss = () =>
+	{
+		return !(getComputedStyle(document.body).getPropertyValue("font-family") === "");
+	}
+	const CargaCss = () => 
+	{
+		return (Array.from(document.styleSheets).some(sheet =>
+		{
+			try
+			{
+				return (sheet.href && sheet.href.startsWith("https://resources.fodsoft.com/css/"));
+			}
+			catch
+			{
+				return (false);
+			}
+		}));
+	};
+	if (!AplicaCss() || !CargaCss())
+		window.location.href = "https://resources.fodsoft.com/missing_css.html";
 });
 
 (function ()
@@ -67,5 +92,6 @@ window.addEventListener("load", () =>
     }
 })(); // nSAVE Blocker - (c) Neo Fodere de Frutos. All rights reserved.
 // FODSOFT(TM). Neo Fodere de Frutos. All rights reserved.
+
 
 
