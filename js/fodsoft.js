@@ -1,9 +1,4 @@
 window.history.scrollRestoration = "manual";
-window.addEventListener("beforeunload", () => 
-{
-	if (performance.navigation.type === performance.navigation.TYPE_RELOAD)
-		window.scrollTo(0, 0);
-});
 window.addEventListener("load", () => 
 {
 	window.scrollTo(0, 0);
@@ -92,6 +87,7 @@ window.addEventListener("load", () =>
     }
 })(); // nSAVE Blocker - (c) Neo Fodere de Frutos. All rights reserved.
 // FODSOFT(TM). Neo Fodere de Frutos. All rights reserved.
+
 
 
 
