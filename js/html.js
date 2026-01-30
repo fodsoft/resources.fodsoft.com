@@ -240,8 +240,8 @@ document.addEventListener("DOMContentLoaded", () =>
 					FODSOFT
 				</a>
 			</nav>
-
-			<div class="menu-nav">
+		</header>
+		<div class="menu-nav">
 				<img src="https://resources.fodsoft.com/images/web/icono_menu.avif" 
 					class="icono-lista-nav invertir-color" draggable="false" oncontextmenu="return false">
 				<div class="lista-nav">
@@ -271,7 +271,6 @@ document.addEventListener("DOMContentLoaded", () =>
 					</a>
 				</div>
 			</div>
-		</header>
 	`;
 
 	const vdream_footer = `
