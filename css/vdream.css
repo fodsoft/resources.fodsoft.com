@@ -149,12 +149,21 @@
 	}
 }
 
+@media (min-width: 1201px)
+{
+	.vdream-header .menu-nav 
+	{ 
+		display: none; 
+	}
+}
+
 @media (max-width: 1200px) 
 {
 	.vdream-nav 
 	{
 		display: none;
 	}
+	
 	.vdream-header .icono-lista-nav
 	{
 		display: block;
