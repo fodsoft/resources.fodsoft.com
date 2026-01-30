@@ -1,9 +1,10 @@
 @font-face 
 {
 	font-family: "Montserrat";
-	src: url("https://resources.fodsoft.com/fonts/montserrat.ttf") format("truetype");
+	src: url("https://resources.fodsoft.com/fonts/montserrat.woff2") format("woff2");
 	font-weight: bold;
 	font-style: normal;
+	font-display: swap;
 } /* (OFL) Montserrat, Designed by Julieta Ulanovsky, Sol Matas, Juan Pablo del Peral, Jacques Le Bailly */
 
 .vdream-header 
