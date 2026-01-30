@@ -3,8 +3,8 @@ document.addEventListener("DOMContentLoaded", () =>
 	const fodsoft_header = `
 		<header class="header-base header-fodsoft">
 			<div class="menu-software">
-				<img src="https://resources.fodsoft.com/images/web/icono_software.avif"
-	                 class="icono-lista-software" draggable="false" oncontextmenu="return false">
+				<img src="https://resources.fodsoft.com/images/web/icono_software.avif" 
+					class="icono-lista-software" draggable="false" oncontextmenu="return false">
 	            <div class="lista-software">
 					<a href="https://fodsoft.com/vdream">
 						<img src="https://resources.fodsoft.com/images/web/icono_vdream.avif"
@@ -208,27 +208,70 @@ document.addEventListener("DOMContentLoaded", () =>
 
 	const vdream_header = `
 		<header class="vdream-header">
-			<a href="https://fodsoft.com/vdream/"> <img src="https://resources.fodsoft.com/images/web/logo_vdream.avif" class="vdream-logo" draggable="false" oncontextmenu="return false"></a>
-			<nav class="vdream-nav" id="lista-software">
-				<a href="https://fodsoft.com/vdream/"><img src="https://resources.fodsoft.com/images/web/icono_inicio.avif" class="icono-header invertir-color"> Home</a>
-				<a href="https://fodsoft.com/vdream/download"><img src="https://resources.fodsoft.com/images/web/icono_descargar.avif" class="icono-header"> Download</a>
-				<a href="https://fodsoft.com/vdream/compatibility"><img src="https://resources.fodsoft.com/images/web/icono_lista.avif" class="icono-header"> Compatibility</a>
-				<a href="https://fodsoft.com/vdream/documentation"><img src="https://resources.fodsoft.com/images/web/icono_docu.avif" class="icono-header"> Documentation</a>
-				<a href="https://github.com/neofodere/vdream" target="_blank"><img src="https://resources.fodsoft.com/images/web/icono_github.avif" class="icono-header"> GitHub</a>
-				<p>|</p>
-				<a href="https://fodsoft.com"><img src="https://resources.fodsoft.com/images/web/icono_fodsoft.avif" class="icono-header pintar-blanco"> FODSOFT™</a>
-			</nav>
-			<img src="https://resources.fodsoft.com/images/web/icono_menu.avif" class="icono-lista-nav invertir-color" id="icono-lista-software">
-		</header>
+			<a href="https://fodsoft.com/vdream/">
+				<img src="https://resources.fodsoft.com/images/web/logo_vdream.avif" 
+					class="vdream-logo" draggable="false" oncontextmenu="return false">
+			</a>
 
-		<div class="lista-nav">
-			<a href="https://fodsoft.com/vdream/"><img src="https://resources.fodsoft.com/images/web/icono_inicio.avif" class="icono-header invertir-color"> Home</a>
-			<a href="https://fodsoft.com/vdream/download"><img src="https://resources.fodsoft.com/images/web/icono_descargar.avif" class="icono-header"> Download</a>
-			<a href="https://fodsoft.com/vdream/compatibility"><img src="https://resources.fodsoft.com/images/web/icono_lista.avif" class="icono-header"> Compatibility</a>
-			<a href="https://fodsoft.com/vdream/documentation"><img src="https://resources.fodsoft.com/images/web/icono_docu.avif" class="icono-header"> Documentation</a>
-			<a href="https://github.com/neofodere/vdream" target="_blank"><img src="https://resources.fodsoft.com/images/web/icono_github.avif" class="icono-header"> GitHub</a>
-			<a href="https://fodsoft.com"><img src="https://resources.fodsoft.com/images/web/icono_fodsoft.avif" class="icono-header pintar-blanco"> FODSOFT™</a>
-		</div>
+			<nav class="vdream-nav">
+				<a href="https://fodsoft.com/vdream/">
+					<img src="https://resources.fodsoft.com/images/web/icono_inicio.avif" class="icono-header invertir-color"> 
+					Home
+				</a>
+				<a href="https://fodsoft.com/vdream/download">
+					<img src="https://resources.fodsoft.com/images/web/icono_descargar.avif" class="icono-header"> 
+					Download
+				</a>
+				<a href="https://fodsoft.com/vdream/compatibility">
+					<img src="https://resources.fodsoft.com/images/web/icono_lista.avif" class="icono-header"> 
+					Compatibility
+				</a>
+				<a href="https://fodsoft.com/vdream/documentation">
+					<img src="https://resources.fodsoft.com/images/web/icono_docu.avif" class="icono-header"> 
+					Documentation
+				</a>
+				<a href="https://github.com/neofodere/vdream" target="_blank">
+					<img src="https://resources.fodsoft.com/images/web/icono_github.avif" class="icono-header"> 
+					GitHub
+				</a>
+				<p>|</p>
+				<a href="https://fodsoft.com">
+					<img src="https://resources.fodsoft.com/images/web/icono_fodsoft.avif" class="icono-header pintar-blanco"> 
+					FODSOFT
+				</a>
+			</nav>
+
+			<div class="menu-nav">
+				<img src="https://resources.fodsoft.com/images/web/icono_menu.avif" 
+					class="icono-lista-nav invertir-color" draggable="false" oncontextmenu="return false">
+				<div class="lista-nav">
+					<a href="https://fodsoft.com/vdream/">
+						<img src="https://resources.fodsoft.com/images/web/icono_inicio.avif" class="icono-header invertir-color"> 
+						Home
+					</a>
+					<a href="https://fodsoft.com/vdream/download">
+						<img src="https://resources.fodsoft.com/images/web/icono_descargar.avif" class="icono-header"> 
+						Download
+					</a>
+					<a href="https://fodsoft.com/vdream/compatibility">
+						<img src="https://resources.fodsoft.com/images/web/icono_lista.avif" class="icono-header"> 
+						Compatibility
+					</a>
+					<a href="https://fodsoft.com/vdream/documentation">
+						<img src="https://resources.fodsoft.com/images/web/icono_docu.avif" class="icono-header"> 
+						Documentation
+					</a>
+					<a href="https://github.com/neofodere/vdream" target="_blank">
+						<img src="https://resources.fodsoft.com/images/web/icono_github.avif" class="icono-header"> 
+						GitHub
+					</a>
+					<a href="https://fodsoft.com">
+						<img src="https://resources.fodsoft.com/images/web/icono_fodsoft.avif" class="icono-header pintar-blanco"> 
+						FODSOFT™
+					</a>
+				</div>
+			</div>
+		</header>
 	`;
 
 	const vdream_footer = `
@@ -274,21 +317,21 @@ document.addEventListener("click", (e) =>
 			menuSoft.style.display = "none";
 	}
 
-	const menusNav = document.querySelectorAll(".lista-nav");
-	menusNav.forEach(menuNav => 
+	const iconoNav = e.target.closest(".icono-lista-nav");
+	const menusNav = document.querySelectorAll(".menu-nav .lista-nav");
+	if (iconoNav)
 	{
-		if (e.target.closest(".icono-lista-nav"))
-			menuNav.style.display = menuNav.style.display === "flex" ? "none" : "flex";
-		else if (!e.target.closest(".lista-nav"))
-			menuNav.style.display = "none";
-	});
-
-});
-
-window.addEventListener("resize", () => 
-{
-	const menu = document.getElementById("lista-software");
-	if (menu && window.innerWidth > 1200)
-		menu.style.display = "none";
+		const contenedor = iconoNav.closest(".menu-nav");
+		const menuActual = contenedor ? contenedor.querySelector(".lista-nav") : null;
+		menusNav.forEach(menu =>
+		{
+			if (menu === menuActual)
+				menu.style.display = (menu.style.display === "flex" ? "none" : "flex");
+			else
+				menu.style.display = "none";
+		});
+	}
+	else if (!e.target.closest(".lista-nav"))
+		menusNav.forEach(menu => menu.style.display = "none");
 });
 // FODSOFT(TM). Neo Fodere de Frutos. All rights reserved.
