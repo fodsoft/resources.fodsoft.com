@@ -218,10 +218,10 @@ document.addEventListener("DOMContentLoaded", () =>
 				<p>|</p>
 				<a href="https://fodsoft.com"><img src="https://resources.fodsoft.com/images/web/icono_fodsoft.avif" class="icono-header pintar-blanco"> FODSOFT™</a>
 			</nav>
-			<img src="https://resources.fodsoft.com/images/web/icono_menu.avif" class="vdream-menu-icono invertir-color" id="icono-lista-software">
+			<img src="https://resources.fodsoft.com/images/web/icono_menu.avif" class="icono-lista-nav invertir-color" id="icono-lista-software">
 		</header>
 
-		<div class="vdream-menu-desplegable">
+		<div class="lista-nav">
 			<a href="https://fodsoft.com/vdream/"><img src="https://resources.fodsoft.com/images/web/icono_inicio.avif" class="icono-header invertir-color"> Home</a>
 			<a href="https://fodsoft.com/vdream/download"><img src="https://resources.fodsoft.com/images/web/icono_descargar.avif" class="icono-header"> Download</a>
 			<a href="https://fodsoft.com/vdream/compatibility"><img src="https://resources.fodsoft.com/images/web/icono_lista.avif" class="icono-header"> Compatibility</a>
@@ -274,14 +274,15 @@ document.addEventListener("click", (e) =>
 			menuSoft.style.display = "none";
 	}
 
-	const menuNav = document.querySelector(".lista-nav");
-	if (menuNav) 
+	const menusNav = document.querySelectorAll(".lista-nav");
+	menusNav.forEach(menuNav => 
 	{
 		if (e.target.closest(".icono-lista-nav"))
 			menuNav.style.display = menuNav.style.display === "flex" ? "none" : "flex";
 		else if (!e.target.closest(".lista-nav"))
 			menuNav.style.display = "none";
-    }
+	});
+
 });
 
 window.addEventListener("resize", () => 
