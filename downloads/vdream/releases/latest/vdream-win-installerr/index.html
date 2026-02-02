@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<script>
+			(async function ()
+			 {
+				const archivoVersion = "https://resources.fodsoft.com/check-version/vdream-latest";
+				try
+				{
+					const respuestaHttp = await fetch(archivoVersion);
+					if (!respuestaHttp.ok) 
+						return;
+					const textoVersion = await respuestaHttp.text();
+					const contenido = textoVersion.replace(/\r/g, ""); // normaliza CRLF
+					const lineaShort = contenido.split("\n").find(l => l.startsWith("SHORT-VERSION="));
+					if (!lineaShort) 
+						return;
+					const versionCorta = lineaShort.replace("SHORT-VERSION=", "").trim();
+					let urlBase = `https://resources.fodsoft.com/downloads/vdream/releases/${versionCorta}/`;
+					if (!urlBase.endsWith("/")) 
+						urlBase += "/";
+					const instalador = `vdream-${versionCorta}-win-installer.exe`;
+					const urlFinal = urlBase + instalador;
+					window.open(urlFinal, "_blank");
+					window.location.href = "https://fodsoft.com/vdream/download/thanks";
+				} 
+				catch {}
+			})();
+		</script>
+	</head>
+</html>
+<!-- FODSOFT(TM). Neo Fodere de Frutos. All rights reserved. -->
