@@ -12,11 +12,7 @@
 					if (!respuestaHttp.ok) 
 						return;
 					const textoVersion = await respuestaHttp.text();
-					const contenido = textoVersion.replace(/\r/g, ""); // normaliza CRLF
-					const lineaShort = contenido.split("\n").find(l => l.startsWith("SHORT-VERSION="));
-					if (!lineaShort) 
-						return;
-					const versionCorta = lineaShort.replace("SHORT-VERSION=", "").trim();
+					const versionCorta = "v" + textoVersion.trim();
 					let urlBase = `https://resources.fodsoft.com/downloads/vdream/releases/${versionCorta}/`;
 					if (!urlBase.endsWith("/")) 
 						urlBase += "/";
