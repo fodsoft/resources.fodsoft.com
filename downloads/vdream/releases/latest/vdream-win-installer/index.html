@@ -23,7 +23,10 @@
 					const instalador = `vdream-${versionCorta}-win-installer.exe`;
 					const urlFinal = urlBase + instalador;
 					window.open(urlFinal, "_blank");
-					window.location.href = "https://fodsoft.com/vdream/download/thanks";
+					setTimeout(() => 
+					{
+						window.location.href = "https://fodsoft.com/vdream/download/thanks";
+					}, 2000);
 				} 
 				catch {}
 			})();
