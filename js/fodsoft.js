@@ -40,6 +40,7 @@ window.addEventListener("load", () =>
 			img.src = "data:image/avif;base64,AAAAIGZ0eXBhdmlmAAAAAG1pZjFhdmlmAAACAGF2MDEAAAAAAQAAAwA=";
 		});
 	}
+
     function soportaWebm() 
 	{
 		return (true);
@@ -112,4 +113,5 @@ window.addEventListener("load", () =>
     }
 })(); // nSAVE Blocker - (c) Neo Fodere de Frutos. All rights reserved.
 // FODSOFT(TM). Neo Fodere de Frutos. All rights reserved.
+
 
