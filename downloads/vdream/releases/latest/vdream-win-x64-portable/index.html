@@ -22,11 +22,7 @@
 						urlBase += "/";
 					const instalador = `vdream-${versionCorta}-x64-portable.7z`;
 					const urlFinal = urlBase + instalador;
-					window.open(urlFinal, "_blank");
-					setTimeout(() => 
-					{
-						window.location.href = "https://fodsoft.com/vdream/download/thanks";
-					}, 2000);
+					window.location.href = urlFinal;
 				} 
 				catch {}
 			})();
