@@ -26,8 +26,8 @@ window.addEventListener("load", () =>
 	};
 	if ((!AplicaCss() || !CargaCss()) && !location.hostname.endsWith(".archive.org"))
 		window.location.href = "https://resources.fodsoft.com/missing_css.html";
-});*/
-/*
+});
+
 (function ()
  {
 	async function soportaAvif()
@@ -113,4 +113,3 @@ window.addEventListener("load", () =>
     }
 })(); // nSAVE Blocker - (c) Neo Fodere de Frutos. All rights reserved.
 // FODSOFT(TM). Neo Fodere de Frutos. All rights reserved.
-
